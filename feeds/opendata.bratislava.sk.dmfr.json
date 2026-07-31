@@ -16,6 +16,13 @@
         "url": "https://data.bratislava.sk/datasets/aba12fd2cbac4843bc7406151bc66106/about",
         "use_without_attribution": "no"
       }
+    },
+    {
+        "spec": "gtfs",
+        "id": "f-bratislave~regionálnej",
+        "urls": {
+            "static_current": "https://drive.usercontent.google.com/download?id=1PRyan1RteJtfSV-8eHuU_iG9kzeUSFSH&export=download"
+        }
     }
   ]
 }

@@ -1,19 +1,5 @@
 {
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
-    {
-      "id": "f-bratislave~mestskej",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://www.arcgis.com/sharing/rest/content/items/aba12fd2cbac4843bc7406151bc66106/data"
-      }
-    },
-    {
-        "spec": "gtfs",
-        "id": "f-bratislave~regionálnej",
-        "urls": {
-            "static_current": "https://drive.usercontent.google.com/download?id=1PRyan1RteJtfSV-8eHuU_iG9kzeUSFSH&export=download"
-        }
-    }
   ]
 }
