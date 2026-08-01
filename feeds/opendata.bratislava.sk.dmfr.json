@@ -21,7 +21,7 @@
         "spec": "gtfs",
         "id": "f-bratislave~regionálnej",
         "urls": {
-            "static_current": "https://drive.usercontent.google.com/download?id=1PRyan1RteJtfSV-8eHuU_iG9kzeUSFSH&export=download"
+            "static_current": "https://transiq.xhyrom.dev/gtfs/sk/ids-bk_regional.zip "
         }
     }
   ]
