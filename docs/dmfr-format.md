@@ -252,7 +252,24 @@ Auth credentials are not stored in a DMFR file. It's up to each software package
 
 ### Tags
 
-Tags allow extra information to be added to feeds and operators. Keys and values must both be strings.
+Tags allow extra information to be added to feeds and operators. Keys and values must both be strings. You may have whatever keys you want.
+
+The following keys are recommended for use on feeds:
+- `notes`: Freeform notes
+- `us_ntd_id`: An identifier from the US FTA National Transit Database. Should only be put on the feed if the feed's URL is exactly the same as listed in NTD weblinks.
+- `mdb_source_id`: An identifier from MobilityDatabase.org
+- `unstable_url`: Set to `"true"` if the URL is unstable and needs to be changed periodically.
+  - `updates_url`: A URL at which we can find new GTFS feeds every time we need to update it.
+- `documentation_url`: A URL which has more information about this feed.
+
+The following keys are recommended for use on operators:
+- `notes`: Freeform notes
+- `us_ntd_id`: An identifier from the US FTA National Transit Database
+- `wikidata_id`: An identifier from Wikidata
+- `twitter_general`: A Twitter (X.com) handle
+- `twitter_service_alerts`: A Twitter (X.com) handle where the agency posts service alerts
+- `facebook`: A URL pointing to the agency's Facebook page
+- `developer_site`: A URL pointing to teh agency's developer portal
 
 ```jsonc
   "feeds": [
