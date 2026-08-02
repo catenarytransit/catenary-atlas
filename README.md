@@ -1,10 +1,7 @@
 <!-- omit in toc -->
-# Catenary Fork - Transitland Atlas
+# Catenary Atlas
 
-An open catalog of transit/mobility data feeds and operators. This will merge in data streams from upstream.
-
-> [!NOTE]
-> Transitland Atlas is now released under the CC-BY license. When using Transitland Atlas in your own projects, please include a link to this repo or to www.transit.land
+An open catalog of transit/mobility data feeds and operators. This will merge in data streams from the upstream, [transitland-atlas](https://github.com/transitland/transitland-atlas).
 
 **Table of contents**:
 
@@ -14,7 +11,7 @@ An open catalog of transit/mobility data feeds and operators. This will merge in
 - [How to Update an Existing Feed](#how-to-update-an-existing-feed)
 - [Operators](#operators)
 - [Onestop IDs](#onestop-ids)
-- [Enriching Transitland Atlas with external reference data](#enriching-transitland-atlas-with-external-reference-data)
+- [Enriching Catenary Atlas with external reference data](#enriching-catenary-atlas-with-external-reference-data)
 - [License](#license)
 
 ## Feeds
@@ -92,11 +89,13 @@ Rules for Onestop IDs in this repository:
 - Name can include any text unicode characters in UTF-8. This is a divergent feature of this repository vs the upstream fork by Transitland which only allows alphanumeric characters.
 - The only separation or punctuation character allowed in the name component is a tilde (`~`)
 
-## Enriching Transitland Atlas with external reference data
+## Enriching Catenary Atlas with external reference data
 
-We welcome help from the community to expand Transitland Atlas by reviewing external reference datasets, including:
+We welcome help from the community to expand Catenary Atlas by reviewing external reference datasets, including:
 
-- [NTD GTFS Weblinks](./external-data-for-reference/ntd-gtfs-weblinks/readme.md)
+- [US Federal Transit Administration National Transit Database GTFS Weblinks](./external-data-for-reference/ntd-gtfs-weblinks/readme.md)
+- [Mobility Database](https://mobilitydatabase.org/)
+- [transitland-atlas](https://github.com/transitland/transitland-atlas)
 
 ## License
 
