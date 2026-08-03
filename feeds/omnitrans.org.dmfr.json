@@ -5,7 +5,7 @@
       "id": "f-9qh-omnitrans",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.omnitrans.org/google/google_transit.zip"
+        "static_current": "https://webservices.umoiq.com/api/gtfs-rt/v1/GTFS/omnitrans"
       },
       "tags": {
         "gtfs_data_exchange": "omnitrans"
