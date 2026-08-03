@@ -5,7 +5,7 @@
       "id": "f-9qh-omnitrans",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://webservices.umoiq.com/api/gtfs-rt/v1/GTFS/omnitrans"
+        "static_current": "https://files.mobilitydatabase.org/mdb-97/mdb-97-202604290039/mdb-97-202604290039.zip"
       },
       "tags": {
         "gtfs_data_exchange": "omnitrans"
