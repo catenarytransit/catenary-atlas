@@ -148,7 +148,7 @@
       "urls": {
         "realtime_vehicle_positions": "https://gtfs.adelaidemetro.com.au/v1/realtime/vehicle_positions",
         "realtime_trip_updates": "https://gtfs.adelaidemetro.com.au/v1/realtime/trip_updates",
-        "realtime_service_alerts": "https://gtfs.adelaidemetro.com.au/v1/realtime/service_alerts"
+        "realtime_alerts": "https://gtfs.adelaidemetro.com.au/v1/realtime/service_alerts"
       }
     }
   ]

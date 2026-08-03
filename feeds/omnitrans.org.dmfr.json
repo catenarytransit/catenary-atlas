@@ -34,7 +34,7 @@
       "urls": {
         "realtime_vehicle_positions": "https://webservices.umoiq.com/api/gtfs-rt/v1/vehicle-positions/omnitrans",
         "realtime_trip_updates": "https://webservices.umoiq.com/api/gtfs-rt/v1/trip-updates/omnitrans",
-        "realtime_service_alerts": "https://webservices.umoiq.com/api/gtfs-rt/v1/service-alerts/omnitrans"
+        "realtime_alerts": "https://webservices.umoiq.com/api/gtfs-rt/v1/service-alerts/omnitrans"
       }
     }
   ]

@@ -14,7 +14,7 @@
         "urls": {
           "realtime_vehicle_positions": "https://api.busradar.conterra.de/data/vehicles.pbf",
           "realtime_trip_updates": "https://api.busradar.conterra.de/data/tripupdates.pbf",
-          "realtime_service_alerts": "https://api.busradar.conterra.de/data/alertupdates.pbf"
+          "realtime_alerts": "https://api.busradar.conterra.de/data/alertupdates.pbf"
         }
       }
     ],

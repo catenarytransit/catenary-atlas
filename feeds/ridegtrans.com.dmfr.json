@@ -35,7 +35,7 @@
       "urls": {
         "realtime_vehicle_positions": "https://mygtbus.ridegtrans.com/gtfsrt/vehicles",
         "realtime_trip_updates": "https://mygtbus.ridegtrans.com/gtfsrt/trips",
-        "realtime_service_alerts": "https://mygtbus.ridegtrans.com/gtfsrt/alerts"
+        "realtime_alerts": "https://mygtbus.ridegtrans.com/gtfsrt/alerts"
       }
     }
   ]

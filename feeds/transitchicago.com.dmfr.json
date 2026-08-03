@@ -60,7 +60,7 @@
       "urls": {
         "realtime_vehicle_positions": "https://transitdata.transitchicago.com/GtfsRealtime/VehiclePositions.pb",
         "realtime_trip_updates": "https://transitdata.transitchicago.com/GtfsRealtime/TripUpdates.pb",
-        "realtime_service_alerts": "https://transitdata.transitchicago.com/GtfsRealtime/ServiceAlerts.pb"
+        "realtime_alerts": "https://transitdata.transitchicago.com/GtfsRealtime/ServiceAlerts.pb"
       }
     }
   ]

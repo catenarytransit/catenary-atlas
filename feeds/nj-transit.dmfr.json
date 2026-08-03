@@ -40,7 +40,7 @@
       "urls": {
         "realtime_vehicle_positions": "https://raildata.njtransit.com/api/GTFSRT/getVehiclePositions",
         "realtime_trip_updates": "https://raildata.njtransit.com/api/GTFSRT/getTripUpdates",
-        "realtime_service_alerts": "https://raildata.njtransit.com/api/GTFSRT/getAlerts"
+        "realtime_alerts": "https://raildata.njtransit.com/api/GTFSRT/getAlerts"
       },
       "license": {
         "url": "https://www.njtransit.com/developer-tools"
