@@ -29,7 +29,7 @@
       },
       "tags": {
         "unstable_url": "true",
-        "sourcecatenary": "https://storage.googleapis.com/gtfs-estaticos/"
+        "updates_url": "https://storage.googleapis.com/gtfs-estaticos/"
       },
       "operators": [
         {
