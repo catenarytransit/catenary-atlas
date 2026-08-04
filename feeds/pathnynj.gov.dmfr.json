@@ -5,7 +5,7 @@
             "id": "f-dr5r-path~nj~us",
             "spec": "gtfs",
             "urls": {
-                "static_current": "http://data.trilliumtransit.com/gtfs/path-nj-us/path-nj-us.zip",
+                "static_current": "https://github.com/ethanc8/ridepath-gtfs-converter/releases/latest/download/gtfs_out.zip",
                 "static_historic": [
                     "https://data.trilliumtransit.com/gtfs/path-nj-us/path-nj-us.zip"
                 ]
