@@ -2,6 +2,22 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-korail",
+      "name": "Korail",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://mkuran.pl/gtfs/korail.zip"
+      }
+    },
+    {
+      "id": "f-korail~rt",
+      "name": "Korail GTFS-RT",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://mkuran.pl/gtfs/korail.pb"
+      }
+    },
+    {
       "id": "f-polishtrains",
       "name": "Polish Trains GTFS",
       "spec": "gtfs",
