@@ -1,4 +1,14 @@
 {
     "feeds": [
+        {
+            "id": "f-czptt",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://data.jr.ggu.cz/results/latest/CZPTT_GTFS.zip"
+            },
+            "tags": {
+                "gtfs_data_exchange": "ggu"
+            }
+        }
     ]
 }
