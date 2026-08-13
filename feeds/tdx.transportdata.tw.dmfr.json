@@ -2,6 +2,13 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-tdx~tw",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/jcanizalez/tdx-gtfs-mirror/releases/download/latest/tw-gtfs.zip"
+      }
+    },
+    {
       "id": "f-bus~new~taipei~tdx~tw",
       "spec": "gtfs",
       "urls": {
