@@ -45,7 +45,7 @@
       "urls": {
         "realtime_vehicle_positions": "https://lagunabeach.tripshot.com/v1/gtfs/realtime/",
         "realtime_trip_updates": "https://lagunabeach.tripshot.com/v1/gtfs/realtime/",
-        "realtime_alerts": "https://lagunabeach.tripshot.com/v1/gtfs/realtime/"
+        "realtime_alerts": "https://lagunabeach.tripshot.com/v1/gtfs/realtime/serviceAlert/"
       }
     },
     {
