@@ -5,7 +5,7 @@
       "id": "f-9q5b-longbeachtransit~watertaxi",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://drive.google.com/uc?export=download&id=1RLNOptEwnCI1HQNvoFIhE8ZWPQQGuYk9",
+        "static_current": "https://drive.google.com/uc?export=download&id=1RLNOptEwnCI1HQNvoFIhE8ZWPQQGuYk9"
       },
       "license": {
         "url": "https://ridelbt.com/gtfs-feed/"
