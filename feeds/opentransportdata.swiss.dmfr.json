@@ -45,6 +45,9 @@
             },
             {
               "feed_onestop_id": "f-u0-switzerland~alerts~rt"
+            },
+            {
+              "feed_onestop_id": "f-u0-switzerland~siri~rt"
             }
           ]
         },
@@ -214,6 +217,13 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_trip_updates": "https://api.opentransportdata.swiss/la/gtfs-rt"
+      }
+    },
+    {
+      "id": "f-u0-switzerland~siri~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "http://localhost:46485/gtfs-rt"
       }
     },
     {
