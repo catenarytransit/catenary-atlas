@@ -6,7 +6,7 @@
       "name": "SBB/SKI+ Switzerland Mobility Open Data Feed",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/ch_pfaedle.zip",
+        "static_current": "https://data.opentransportdata.swiss/en/dataset/timetable-2026-gtfs2020/permalink",
         "static_historic": [
           "https://data.opentransportdata.swiss/en/dataset/timetable-2025-gtfs2020/permalink",
           "https://opentransportdata.swiss/en/dataset/timetable-2024-gtfs2020/permalink",
@@ -45,6 +45,9 @@
             },
             {
               "feed_onestop_id": "f-u0-switzerland~alerts~rt"
+            },
+            {
+              "feed_onestop_id": "f-u0-switzerland~siri~rt"
             }
           ]
         },
@@ -214,6 +217,13 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_trip_updates": "https://api.opentransportdata.swiss/la/gtfs-rt"
+      }
+    },
+    {
+      "id": "f-u0-switzerland~siri~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "http://localhost:46485/gtfs-rt"
       }
     },
     {
