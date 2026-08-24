@@ -18,9 +18,23 @@
         {
           "onestop_id": "o-eo0-zssk",
           "name": "Železničná spoločnosť Slovensko",
-          "short_name": "ZSSK via ZSR"
+          "short_name": "ZSSK via ZSR",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-zsr~sk~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-zsr~sk~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://jbb.ghsq.de/gtfs/zsr/TripUpdates",
+        "realtime_alerts": "https://jbb.ghsq.de/gtfs/zsr/Alerts",
+        "realtime_vehicle_positions": "https://jbb.ghsq.de/gtfs/zsr/VehiclePositions"
+      }
     }
   ]
 }
