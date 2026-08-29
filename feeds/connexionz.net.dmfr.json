@@ -1,6 +1,39 @@
 {
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
+      {
+      "id": "f-9q60w-cityofsanluisobispotransit",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://slocity.connexionz.net/rtt/public/resource/gtfs.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-9q60w-cityofsanluisobispotransit",
+          "name": "City of San Luis Obispo Transit",
+          "short_name": "SLO",
+          "tags": {
+            "twitter_general": "SloTransit",
+            "us_ntd_id": "90156",
+            "wikidata_id": "Q7390980"
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-9q60w-cityofsanluisobispotransit~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-9q60w-cityofsanluisobispotransit~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_trip_updates": "https://slocity.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/tripupdate",
+        "realtime_vehicle_positions": "https://slocity.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/vehicleposition",
+        "realtime_alerts": "https://slocity.connexionz.net/rtt/public/utility/gtfsrealtime.aspx/alert"
+      }
+    },
     {
       "id": "f-9q6-kcapta~ca~us",
       "spec": "gtfs",
