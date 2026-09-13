@@ -1,0 +1,18 @@
+{
+	"$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+	"feeds": [
+		{
+			"id": "f-mhd~presov",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://www.arcgis.com/sharing/rest/content/items/f1033ca6c2f4461d9aba285e1c7cb079/data",
+				"static_historic": []
+			},
+			"license": {
+				"spdx_identifier": "CC-BY-4.0",
+				"url": "https://www.datovyportal.presov.sk/datasets/f1033ca6c2f4461d9aba285e1c7cb079/about",
+				"use_without_attribution": "no"
+			}
+		}
+	]
+}

@@ -1,0 +1,167 @@
+{
+	"$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+	"feeds": [
+		{
+			"id": "f-kompa~vojka~kyselica",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://github.gtfs.sk/kompa-vojka/gtfs.zip",
+				"static_historic": []
+			},
+			"license": {
+				"spdx_identifier": "MIT",
+				"url": "https://github.com/gtfs-sk/kompa-vojka/blob/main/LICENSE",
+				"use_without_attribution": "no"
+			}
+		},
+		{
+			"id": "f-detska~zeleznica~kosice",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://github.gtfs.sk/mirror-dzk/gtfs.zip",
+				"static_historic": []
+			},
+			"license": {
+				"spdx_identifier": "CC-BY-4.0",
+				"url": "https://www.detskazeleznica.sk/gtfs-license",
+				"use_without_attribution": "no"
+			}
+		},
+		{
+			"id": "f-transiq~arriva~trnava",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/arriva-trnava-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~sad~dunajska~streda",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/sad-dunajska-streda-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~sad~dunajska~streda",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/sad-dunajska-streda-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~a~express",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/a-express-sro.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~arriva~liorbus",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/arriva-liorbus-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~arriva~michalovce",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/arriva-michalovce-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~arriva~nitra",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/arriva-nitra-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~arriva~nove~zamky",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/arriva-nove-zamky-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~daka",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/cestovna-kancelaria-daka.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~eurobus",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/eurobus-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~student~agency",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/regiojet-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~sad~humenne",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/sad-humenne-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~sad~poprad",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/sad-poprad-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~sad~presov",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/sad-presov-sk.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~sad~trencin",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/sad-trencin-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~sad~zvolen",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/sad-zvolen-as.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-transiq~slovak~lines~express",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/slovak-lines-express-as.zip",
+				"static_historic": []
+			}
+		}
+	]
+}

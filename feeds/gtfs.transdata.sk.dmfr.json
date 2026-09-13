@@ -1,0 +1,29 @@
+{
+	"$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+	"feeds": [
+		{
+			"id": "f-sad~lucenec",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://gtfs.transdata.sk/SADLC/gtfs.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-sad~prievidza",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://gtfs.transdata.sk/SADPD/gtfs.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-sad~zilina",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://gtfs.transdata.sk/SADZA/gtfs.zip",
+				"static_historic": []
+			}
+		}
+	]
+}
