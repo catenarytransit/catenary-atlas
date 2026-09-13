@@ -44,14 +44,6 @@
 			}
 		},
 		{
-			"id": "f-transiq~sad~dunajska~streda",
-			"spec": "gtfs",
-			"urls": {
-				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/sad-dunajska-streda-as.zip",
-				"static_historic": []
-			}
-		},
-		{
 			"id": "f-transiq~a~express",
 			"spec": "gtfs",
 			"urls": {
