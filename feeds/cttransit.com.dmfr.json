@@ -55,6 +55,23 @@
   ],
   "operators": [
     {
+      "onestop_id": "o-ctrail~hartford",
+      "name": "CTrail Hartford Line",
+      "short_name": "CTrail Hartford Line",
+      "website": "http://www.cttransit.com",
+      "associated_feeds": [
+        {
+          "feed_onestop_id": "f-cttransit~hartford~line"
+        }
+      ],
+      "tags": {
+        "developer_site": "https://www.cttransit.com/about/developers",
+        "twitter_general": "cttransit",
+        "us_ntd_id": "10048",
+        "wikidata_id": "Q5161635"
+      }
+    },
+    {
       "onestop_id": "o-cttransit",
       "supersedes_ids": [
         "o-drk-cttransit~hartford",
@@ -68,9 +85,6 @@
       "short_name": "CTtransit",
       "website": "http://www.cttransit.com",
       "associated_feeds": [
-        {
-          "feed_onestop_id": "f-cttransit~hartford~line"
-        },
         {
           "feed_onestop_id": "f-cttransit~rt"
         },
