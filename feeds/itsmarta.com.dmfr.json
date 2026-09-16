@@ -28,6 +28,9 @@
           "associated_feeds": [
             {
               "feed_onestop_id": "f-dnh-marta~rt"
+            },
+            {
+              "feed_onestop_id": "f-dnh-marta~catenary~rt"
             }
           ],
           "tags": {
@@ -46,6 +49,14 @@
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt.itsmarta.com/TMGTFSRealTimeWebService/vehicle/vehiclepositions.pb",
         "realtime_trip_updates": "https://gtfs-rt.itsmarta.com/TMGTFSRealTimeWebService/tripupdate/tripupdates.pb"
+      }
+    },
+    {
+      "id": "f-dnh-marta~catenary~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://example.com/",
+        "realtime_trip_updates": "https://example.com/"
       }
     }
   ]
