@@ -6,9 +6,10 @@
       "spec": "gtfs",
       "urls": {
         "static_historic": [
-          "https://www.zsr.sk/files/pre-cestujucich/cestovny-poriadok/gtfs/gtfs.zip"
+          "https://www.zsr.sk/files/pre-cestujucich/cestovny-poriadok/gtfs/gtfs.zip",
+          "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/zssk_gtfs-pfaedle.zip"
         ],
-        "static_current": "https://github.com/catenarytransit/pfaedled-gtfs-actions/releases/download/latest/zssk_gtfs-pfaedle.zip"
+        "static_current": "https://github.gtfs.sk/modified-zsr-feed/gtfs.zip"
       },
       "license": {
         "spdx_identifier": "CC0-1.0",
