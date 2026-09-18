@@ -2,10 +2,19 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-gbqu-semitan~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.okina.fr/gateway/semgtfsrt/realtime/vehicle-positions/NAOLIBORG",
+        "realtime_trip_updates": "https://api.okina.fr/gateway/semgtfsrt/realtime/trip-updates/NAOLIBORG",
+        "realtime_alerts": "https://api.okina.fr/gateway/semgtfsrt/realtime/alerts/NAOLIBORG"
+      }
+    },
+    {
       "id": "f-gbqu-semitan",
       "spec": "gtfs",
       "urls": {
-        "static_current": "244400404_transports_commun_naolib_nantes_metropole_gtfs/files/0cc0469a72de54ee045cb66d1a21de9e/download/"
+        "static_current": "https://data.nantesmetropole.fr/explore/dataset/244400404_transports_commun_naolib_nantes_metropole_gtfs/files/0cc0469a72de54ee045cb66d1a21de9e/download/"
       },
       "license": {
         "url": "https://data.nantesmetropole.fr/explore/dataset/244400404_reseau-transports-collectifs-naolib/table/?sort=-id",
@@ -24,6 +33,9 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "1"
+            },
+            {
+              "feed_onestop_id": "f-gbqu-semitan~rt"
             }
           ]
         }
