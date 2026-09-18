@@ -2,24 +2,6 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
-      "id": "f-exo~reseaudetransportmetropolitain~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/trains/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/trains/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/trains/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
-      }
-    },
-    {
       "id": "f-f25-exo~citsorel~varennes",
       "spec": "gtfs",
       "urls": {
@@ -33,25 +15,10 @@
       }
     },
     {
-      "id": "f-f25-exo~citsorel~varennes~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citsv/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citsv/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citsv/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
-      }
-    },
-    {
       "id": "f-f253-exo~citsud~ouest",
+      "supersedes_ids": [
+        "f-f259-exo~citduhaut~saint~laurent"
+      ],
       "spec": "gtfs",
       "urls": {
         "static_current": "https://exo.quebec/xdata/citso/google_transit.zip"
@@ -61,24 +28,6 @@
         "url": "https://www.donneesquebec.ca/fr/licence/#cc-by",
         "use_without_attribution": "no",
         "create_derived_product": "yes"
-      }
-    },
-    {
-      "id": "f-f253-exo~citsud~ouest~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citso/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citso/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citso/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
       }
     },
     {
@@ -95,24 +44,6 @@
       }
     },
     {
-      "id": "f-f256-exo~citlapresquîle~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citpi/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citpi/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citpi/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
-      }
-    },
-    {
       "id": "f-f257-exo~citlaurentides",
       "spec": "gtfs",
       "urls": {
@@ -123,55 +54,6 @@
         "url": "https://www.donneesquebec.ca/fr/licence/#cc-by",
         "use_without_attribution": "no",
         "create_derived_product": "yes"
-      }
-    },
-    {
-      "id": "f-f257-exo~citlaurentides~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citla/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citla/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citla/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
-      }
-    },
-    {
-      "id": "f-f259-exo~citduhaut~saint~laurent",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://exo.quebec/xdata/cithsl/google_transit.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://www.donneesquebec.ca/fr/licence/#cc-by",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes"
-      }
-    },
-    {
-      "id": "f-f259-exo~citduhaut~saint~laurent~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/cithsl/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/cithsl/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/cithsl/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
       }
     },
     {
@@ -199,24 +81,6 @@
       }
     },
     {
-      "id": "f-f25d-exo~richelain~roussillon~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/lrrs/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/lrrs/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/lrrs/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
-      }
-    },
-    {
       "id": "f-f25f-exo~citchambly~richelieu~carignan",
       "spec": "gtfs",
       "urls": {
@@ -227,24 +91,6 @@
         "url": "https://www.donneesquebec.ca/fr/licence/#cc-by",
         "use_without_attribution": "no",
         "create_derived_product": "yes"
-      }
-    },
-    {
-      "id": "f-f25f-exo~citchambly~richelieu~carignan~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citcrc/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citcrc/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citcrc/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
       }
     },
     {
@@ -261,24 +107,6 @@
       }
     },
     {
-      "id": "f-f25g-exo~citvallée~du~richelieu~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/citvr/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/citvr/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/citvr/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
-      }
-    },
-    {
       "id": "f-f25g-exo~omitsainte~julie",
       "spec": "gtfs",
       "urls": {
@@ -289,24 +117,6 @@
         "url": "https://www.donneesquebec.ca/fr/licence/#cc-by",
         "use_without_attribution": "no",
         "create_derived_product": "yes"
-      }
-    },
-    {
-      "id": "f-f25g-exo~omitsainte~julie~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/omitsju/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/omitsju/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/omitsju/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
       }
     },
     {
@@ -323,24 +133,6 @@
       }
     },
     {
-      "id": "f-f25s-exo~mrclesmoulinsurbis~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclm/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclm/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclm/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
-      }
-    },
-    {
       "id": "f-f25u-exo~mrcdelassomption",
       "spec": "gtfs",
       "urls": {
@@ -351,24 +143,6 @@
         "url": "https://www.donneesquebec.ca/fr/licence/#cc-by",
         "use_without_attribution": "no",
         "create_derived_product": "yes"
-      }
-    },
-    {
-      "id": "f-f25u-exo~mrcdelassomption~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclasso/vehicleposition",
-        "realtime_trip_updates": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclasso/tripupdate",
-        "realtime_alerts": "https://exo.chrono-saeiv.com/api/opendata/v1/mrclasso/alert"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "url": "https://exo.quebec/en/about/open-data"
-      },
-      "authorization": {
-        "type": "query_param",
-        "param_name": "token",
-        "info_url": "https://exo.quebec/en/about/open-data/RequestAccessForm"
       }
     }
   ],
@@ -441,20 +215,6 @@
         },
         {
           "feed_onestop_id": "f-f257-exo~citlaurentides~rt"
-        }
-      ]
-    },
-    {
-      "onestop_id": "o-f259-exo~citduhaut~saint~laurent",
-      "name": "EXO - Haut-Saint-Laurent",
-      "website": "https://exo.quebec/fr/planifier-trajet/autobus/CITHSL",
-      "associated_feeds": [
-        {
-          "gtfs_agency_id": "CITHSL",
-          "feed_onestop_id": "f-f259-exo~citduhaut~saint~laurent"
-        },
-        {
-          "feed_onestop_id": "f-f259-exo~citduhaut~saint~laurent~rt"
         }
       ]
     },

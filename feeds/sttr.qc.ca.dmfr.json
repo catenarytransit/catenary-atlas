@@ -2,18 +2,16 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
-      "id": "f-societe~de~transport~de~trois-rivieres~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://st-troisrivieres-gtfsrt.civilia.ca/pb/vehiclePositions.pb",
-        "realtime_trip_updates": "https://st-troisrivieres-gtfsrt.civilia.ca/pb/tripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-societe~de~transport~de~trois-rivieres",
+      "id": "f-societe~de~transport~de~trois~rivieres",
+      "supersedes_ids": [
+        "f-societe~de~transport~de~trois-rivieres"
+      ],
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.donneesquebec.ca/recherche/dataset/a2d3c9de-4045-41e3-b2ea-5bb64bd8c50f/resource/71d94f75-5a36-4789-b581-a21d49dcd5f5/download/gtfs-sttr-hiv25.zip"
+        "static_current": "https://www.donneesquebec.ca/recherche/dataset/a2d3c9de-4045-41e3-b2ea-5bb64bd8c50f/resource/71d94f75-5a36-4789-b581-a21d49dcd5f5/download",
+        "static_historic": [
+          "https://www.donneesquebec.ca/recherche/dataset/a2d3c9de-4045-41e3-b2ea-5bb64bd8c50f/resource/71d94f75-5a36-4789-b581-a21d49dcd5f5/download/gtfs-sttr-hiv24.zip"
+        ]
       },
       "languages": [
         "fr-CA"
@@ -24,20 +22,12 @@
         "use_without_attribution": "no",
         "create_derived_product": "yes"
       },
-      "tags": {
-        "status": "outdated"
-      },
       "operators": [
         {
           "onestop_id": "o-societe~de~transport~de~troisrivieres",
           "name": "Société de transport de Trois-Rivières",
           "short_name": "STTR",
-          "website": "https://sttr.qc.ca",
-          "associated_feeds": [
-            {
-              "feed_onestop_id": "f-societe~de~transport~de~trois-rivieres~rt"
-            }
-          ]
+          "website": "https://sttr.qc.ca"
         }
       ]
     }
