@@ -5,7 +5,7 @@
       "id": "f-dp3-pace",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.pacebus.com/sites/default/files/2026-05/GTFS.zip"
+        "static_current": "https://www.pacebus.com/sites/default/files/2026-08/GTFS.zip"
       },
       "license": {
         "url": "https://www.pacebus.com/route-timetable-data-services",
@@ -26,8 +26,8 @@
               "gtfs_agency_id": "PACE"
             },
             {
-              "feed_onestop_id": "f-dp3-pace~rt",
-              "gtfs_agency_id": "PACE"
+              "gtfs_agency_id": "PACE",
+              "feed_onestop_id": "f-dp3-pace~rt"
             }
           ],
           "tags": {
