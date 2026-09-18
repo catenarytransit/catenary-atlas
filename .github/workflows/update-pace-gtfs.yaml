@@ -24,23 +24,34 @@ jobs:
     - name: Update Pace GTFS feed URL in DMFR
       run: pace-gtfs-downloader update-dmfr feeds/pacebus.com.dmfr.json
 
-    - uses: actions/setup-python@v6
-      with:
-        python-version: '3.11'
-    - name: Install uv
-      uses: astral-sh/setup-uv@v7
-      with:
-        cache-dependency-glob: |
-          scripts/*.py
     - name: Install transitland-lib
       run: scripts/install-transitland-lib.sh
     - name: Format in the opinionated DMFR format
       run: transitland dmfr format --save feeds/pacebus.com.dmfr.json
-    - name: Validate feeds
-      working-directory: scripts
-      run: uv run validate-feeds.py
-      env:
-        DMFR_SCHEMA_VERSION: v0.6.0
+
+    # Deliberately scoped to just the Pace feed rather than running the
+    # repo-wide scripts/validate-feeds.py: that script's `transitland sync`
+    # step processes every feeds/*.dmfr.json file, so an unrelated feed
+    # elsewhere in the repo being invalid would fail this job and block the
+    # Pace update even though the Pace feed itself is fine.
+    - name: Validate Pace feed
+      run: |
+        python3 - <<'PY'
+        import json
+        import sys
+
+        path = "feeds/pacebus.com.dmfr.json"
+        expected_schema = "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json"
+
+        with open(path) as f:
+            data = json.load(f)
+
+        if data.get("$schema") != expected_schema:
+            print(f"ERROR: {path} has unexpected $schema: {data.get('$schema')!r}", file=sys.stderr)
+            sys.exit(1)
+
+        print(f"{path} is valid JSON with schema {expected_schema}")
+        PY
 
     - name: Commit and push if changes exist
       run: |
