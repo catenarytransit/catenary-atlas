@@ -596,33 +596,6 @@
       }
     },
     {
-      "id": "f-chapman~university",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://passio3.com/chapman/passioTransit/gtfs/google_transit.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-chapman~university",
-          "name": "Chapman University",
-          "associated_feeds": [
-            {
-              "feed_onestop_id": "f-chapman~university~rt"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "f-chapman~university~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://passio3.com/chapman/passioTransit/gtfs/realtime/vehiclePositions",
-        "realtime_trip_updates": "https://passio3.com/chapman/passioTransit/gtfs/realtime/tripUpdates",
-        "realtime_alerts": "https://passio3.com/chapman/passioTransit/gtfs/realtime/serviceAlerts"
-      }
-    },
-    {
       "id": "f-chemung~c~tran",
       "spec": "gtfs",
       "urls": {
@@ -699,33 +672,6 @@
         "realtime_vehicle_positions": "https://passio3.com/clackamas/passioTransit/gtfs/realtime/vehiclePositions",
         "realtime_trip_updates": "https://passio3.com/clackamas/passioTransit/gtfs/realtime/tripUpdates",
         "realtime_alerts": "https://passio3.com/clackamas/passioTransit/gtfs/realtime/serviceAlerts"
-      }
-    },
-    {
-      "id": "f-columbia~university",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://passio3.com/columbia/passioTransit/gtfs/google_transit.zip"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-columbia~university",
-          "name": "Columbia University",
-          "associated_feeds": [
-            {
-              "feed_onestop_id": "f-columbia~university~rt"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "f-columbia~university~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://passio3.com/columbia/passioTransit/gtfs/realtime/vehiclePositions",
-        "realtime_trip_updates": "https://passio3.com/columbia/passioTransit/gtfs/realtime/tripUpdates",
-        "realtime_alerts": "https://passio3.com/columbia/passioTransit/gtfs/realtime/serviceAlerts"
       }
     },
     {
@@ -1359,13 +1305,6 @@
       }
     },
     {
-      "id": "f-emory~hospital~midtown",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://passio3.com/emory/passioTransit/gtfs/google_transit.zip"
-      }
-    },
-    {
       "id": "f-florida~gulf~coast~university",
       "spec": "gtfs",
       "urls": {
@@ -1612,20 +1551,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://passio3.com/mercy/passioTransit/gtfs/google_transit.zip"
-      }
-    },
-    {
-      "id": "f-miller~transportation~in~ky",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://passio3.com/miller/passioTransit/gtfs/google_transit.zip"
-      }
-    },
-    {
-      "id": "f-new~york~university",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://passio3.com/nyu/passioTransit/gtfs/google_transit.zip"
       }
     },
     {
@@ -2097,6 +2022,33 @@
         "realtime_vehicle_positions": "https://passio3.com/uconn/passioTransit/gtfs/realtime/vehiclePositions",
         "realtime_trip_updates": "https://passio3.com/uconn/passioTransit/gtfs/realtime/tripUpdates",
         "realtime_alerts": "https://passio3.com/uconn/passioTransit/gtfs/realtime/serviceAlerts"
+      }
+    },
+    {
+      "id": "f-smf~airport~shuttle",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/sacair/passioTransit/gtfs/google_transit.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-smf~airport~shuttle",
+          "name": "SMF Airport Shuttle",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-smf~airport~shuttle~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-smf~airport~shuttle~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/sacair/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_trip_updates": "https://passio3.com/sacair/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_alerts": "https://passio3.com/sacair/passioTransit/gtfs/realtime/serviceAlerts"
       }
     }
   ]
