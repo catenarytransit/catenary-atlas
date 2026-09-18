@@ -1,0 +1,59 @@
+name: Update Pace GTFS feed
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 8 * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v6
+
+    - name: Install Rust
+      uses: actions-rs/toolchain@v1
+      with:
+        profile: minimal
+        toolchain: stable
+        override: true
+
+    - name: Install pace-gtfs-downloader
+      run: cargo install --git https://github.com/ethanc8/pace-gtfs-downloader.git --locked
+
+    - name: Update Pace GTFS feed URL in DMFR
+      run: pace-gtfs-downloader update-dmfr feeds/pacebus.com.dmfr.json
+
+    - uses: actions/setup-python@v6
+      with:
+        python-version: '3.11'
+    - name: Install uv
+      uses: astral-sh/setup-uv@v7
+      with:
+        cache-dependency-glob: |
+          scripts/*.py
+    - name: Install transitland-lib
+      run: scripts/install-transitland-lib.sh
+    - name: Format in the opinionated DMFR format
+      run: transitland dmfr format --save feeds/pacebus.com.dmfr.json
+    - name: Validate feeds
+      working-directory: scripts
+      run: uv run validate-feeds.py
+      env:
+        DMFR_SCHEMA_VERSION: v0.6.0
+
+    - name: Commit and push if changes exist
+      run: |
+        set -eu
+        git config user.name "Automated Bot"
+        git config user.email "info@interline.io"
+
+        if [ -z "$(git status --porcelain -- feeds/pacebus.com.dmfr.json)" ]; then
+          echo "Pace GTFS feed URL is already up to date."
+          exit 0
+        fi
+
+        echo "Pace GTFS feed URL has changed."
+        git add feeds/pacebus.com.dmfr.json
+        git commit -m "Updated Pace GTFS feed URL from pacebus.com at $(date -u)"
+        git push origin HEAD:main
