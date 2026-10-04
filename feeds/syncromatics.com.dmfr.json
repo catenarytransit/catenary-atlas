@@ -626,10 +626,6 @@
             },
             {
               "feed_onestop_id": "f-dp9k-waukeshacounty~wi~us~rt"
-            },
-            {
-              "gtfs_agency_id": "2356",
-              "feed_onestop_id": "f-megabus~us"
             }
           ],
           "tags": {

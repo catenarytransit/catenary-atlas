@@ -128,10 +128,6 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "16"
-            },
-            {
-              "gtfs_agency_id": "18",
-              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ]
         },
@@ -141,10 +137,6 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "155"
-            },
-            {
-              "gtfs_agency_id": "3",
-              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ],
           "tags": {
@@ -158,10 +150,6 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "196"
-            },
-            {
-              "gtfs_agency_id": "59",
-              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ],
           "tags": {
@@ -185,10 +173,6 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "112"
-            },
-            {
-              "gtfs_agency_id": "53",
-              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ]
         },
@@ -199,10 +183,6 @@
           "associated_feeds": [
             {
               "gtfs_agency_id": "108"
-            },
-            {
-              "gtfs_agency_id": "34",
-              "feed_onestop_id": "f-utel~uiuc~intercity~bus"
             }
           ],
           "tags": {
