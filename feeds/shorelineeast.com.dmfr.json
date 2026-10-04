@@ -1,0 +1,34 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-drk-shorelineeast",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/sle-gtfs/releases/latest/download/sle-gtfs.zip"
+      },
+      "tags": {
+        "documentation_url": "https://github.com/ethanc8/sle-gtfs"
+      }
+    }
+  ],
+  "operators": [
+    {
+			"onestop_id": "o-drk-shorelineeast",
+			"name": "Shore Line East",
+			"short_name": "SLE",
+			"website": "http://www.shorelineeast.com/",
+			"associated_feeds": [
+				{
+					"gtfs_agency_id": "1230"
+				}
+			],
+			"tags": {
+				"developer_site": "https://www.cttransit.com/about/developers",
+				"twitter_general": "ShoreLineEast",
+				"us_ntd_id": "10102",
+				"wikidata_id": "Q7501304"
+			}
+		}
+  ]
+}
