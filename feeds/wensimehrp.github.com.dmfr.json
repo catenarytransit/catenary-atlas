@@ -1,0 +1,12 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+    "feeds": [
+        {
+            "id": "f-china~railway",
+            "spec": "gtfs",
+            "urls": {
+                "static_current": "https://github.com/wensimehrp/chinese-railway-gtfs/releases/latest/download/output_gtfs.zip"
+            }
+        }
+    ]
+}
