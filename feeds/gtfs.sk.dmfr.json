@@ -154,6 +154,30 @@
 				"static_current": "https://transiq.xhyrom.dev/gtfs/sk/slovak-lines-express-as.zip",
 				"static_historic": []
 			}
+		},
+		{
+			"id": "f-mhd~pezinok",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://github.gtfs.sk/azlines/pezinok.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-mhd~malacky",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://github.gtfs.sk/azlines/malacky.zip",
+				"static_historic": []
+			}
+		},
+		{
+			"id": "f-mhd~topolcany",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://github.gtfs.sk/azlines/topolcany.zip",
+				"static_historic": []
+			}
 		}
 	]
 }
