@@ -10,7 +10,6 @@ from __future__ import annotations
 import argparse
 import copy
 import json
-from collections import Counter
 from pathlib import Path
 from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 from urllib.request import Request, urlopen
@@ -125,17 +124,98 @@ def fold_operators(older: list[dict], newer: list[dict]) -> list[dict]:
     return folded
 
 
-def merge_registry(existing: dict, upstream: dict) -> dict:
+def resolve_external_aliases(
+    upstream: dict, other_files: list[tuple[str, dict]]
+) -> dict[str, str]:
+    """Prefer previously registered feed IDs to upstream renames.
+
+    A feed belongs to the same identity only when its current URL (excluding
+    GTFS Data JP's ephemeral uid) matches, or when the Onestop ID is exact.
+    Explicit supersedes IDs without a URL match need human review rather
+    than silently moving a feed between registry files.
+    """
+    by_url: dict[tuple[str, str], list[tuple[str, dict]]] = {}
+    by_id: dict[str, list[tuple[str, dict]]] = {}
+    for path, document in other_files:
+        for feed in document.get("feeds", []):
+            by_id.setdefault(feed["id"], []).append((path, feed))
+            for field, url in current_url_fields(feed):
+                by_url.setdefault((field, url), []).append((path, feed))
+
+    aliases: dict[str, str] = {}
+    reused: dict[str, str] = {}
+    for feed_id, incoming in unique_feeds(upstream, "upstream Japan").items():
+        matches = {
+            (path, candidate["id"]): candidate
+            for field, url in current_url_fields(incoming)
+            for path, candidate in by_url.get((field, url), [])
+        }
+        # Exact IDs take precedence even if the URL has been updated.
+        matches.update({
+            (path, candidate["id"]): candidate
+            for path, candidate in by_id.get(feed_id, [])
+        })
+        if not matches:
+            superseded = [
+                (path, candidate["id"])
+                for legacy_id in incoming.get("supersedes_ids", [])
+                for path, candidate in by_id.get(legacy_id, [])
+            ]
+            if superseded:
+                raise RegistryConflict(
+                    f"{feed_id}: supersedes a cataloged feed but its current "
+                    f"URL differs; review the existing record(s): {superseded}"
+                )
+            continue
+        if len(matches) != 1:
+            raise RegistryConflict(
+                f"{feed_id}: ambiguous existing feed identities: {list(matches)}"
+            )
+        (path, legacy_id), previous = next(iter(matches.items()))
+        if incoming.get("spec") != previous.get("spec"):
+            raise RegistryConflict(
+                f"{feed_id}: spec differs from existing {legacy_id} in {path}"
+            )
+        prior = reused.get(legacy_id)
+        if prior and prior != feed_id:
+            raise RegistryConflict(
+                f"two upstream feeds ({prior}, {feed_id}) map to {legacy_id}"
+            )
+        reused[legacy_id] = feed_id
+        aliases[feed_id] = legacy_id
+    return aliases
+
+
+def rewrite_operator_feeds(operators: list[dict], aliases: dict[str, str]) -> list[dict]:
+    rewritten = copy.deepcopy(operators)
+    for op in rewritten:
+        for assoc in op.get("associated_feeds", []):
+            source_id = assoc.get("feed_onestop_id")
+            assoc["feed_onestop_id"] = aliases.get(source_id, source_id)
+    return rewritten
+
+
+def merge_registry(existing: dict, upstream: dict, aliases: dict[str, str] | None = None) -> dict:
+    aliases = aliases or {}
     previous = unique_feeds(existing, "local Japan")
     latest = unique_feeds(upstream, "upstream Japan")
     merged = copy.deepcopy(existing)
-    combined = {feed_id: copy.deepcopy(feed) for feed_id, feed in previous.items()}
+    # This also removes shadow records accidentally imported in an older sync.
+    combined = {
+        feed_id: copy.deepcopy(feed)
+        for feed_id, feed in previous.items()
+        if feed_id not in aliases
+    }
     for feed_id, feed in latest.items():
+        if feed_id in aliases:
+            continue
         combined[feed_id] = (merge_feed(previous[feed_id], feed)
                              if feed_id in previous else copy.deepcopy(feed))
     merged["feeds"] = [combined[key] for key in sorted(combined)]
-    merged["operators"] = fold_operators(existing.get("operators", []),
-                                          upstream.get("operators", []))
+    merged["operators"] = fold_operators(
+        rewrite_operator_feeds(existing.get("operators", []), aliases),
+        rewrite_operator_feeds(upstream.get("operators", []), aliases),
+    )
     return merged
 
 
@@ -235,7 +315,8 @@ def main() -> None:
 
     upstream = (json.loads(args.upstream_file.read_text(encoding="utf-8"))
                 if args.upstream_file else fetch_upstream())
-    merged = merge_registry(current, upstream)
+    aliases = resolve_external_aliases(upstream, others)
+    merged = merge_registry(current, upstream, aliases)
     validate_target(merged, others)
 
     current_ids = unique_feeds(current, "current")
@@ -244,10 +325,11 @@ def main() -> None:
                   for feed_id, merged_feed in
                   ((feed["id"], feed) for feed in merged["feeds"])
                   if feed_id in new_ids)
-    added = len(set(new_ids) - set(current_ids))
-    retained = len(set(current_ids) - set(new_ids))
-    print(f"Added {added}, updated {updated}, retained local-only {retained}; "
-          f"total {len(merged['feeds'])} feeds, {len(merged['operators'])} operators")
+    added = len(set(new_ids) - set(current_ids) - set(aliases))
+    retained = len(set(current_ids) - set(new_ids) - set(aliases))
+    print(f"Added {added}, updated {updated}, retained local-only {retained}, "
+          f"reused external identities {len(aliases)}; total "
+          f"{len(merged['feeds'])} feeds, {len(merged['operators'])} operators")
     if args.check:
         if current != merged:
             raise SystemExit("Japan registry differs from supplied upstream")
