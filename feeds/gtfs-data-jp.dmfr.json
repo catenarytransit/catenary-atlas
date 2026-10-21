@@ -36,48 +36,6 @@
       }
     },
     {
-      "id": "f-akashicity~tacobustacobusmini",
-      "supersedes_ids": [
-        "f-明石市~たこバス"
-      ],
-      "name": "たこバス/たこバスミニ",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/akashicity/feeds/tacobustacobusmini/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-aketetsu~akechirailway",
-      "supersedes_ids": [
-        "f-明知鉄道"
-      ],
-      "name": "明知鉄道",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/aketetsu/feeds/akechirailway/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
       "id": "f-akicity~gtfs~akicity~bus",
       "name": "安芸市「元気バス」",
       "spec": "gtfs",
@@ -118,20 +76,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://api.gtfs-data.jp/v2/organizations/akocity/feeds/teijuurou/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-akocity~yuranosuke",
-      "supersedes_ids": [
-        "f-赤穂市~市内循環バスゆらのすけ"
-      ],
-      "name": "ゆらのすけ",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/akocity/feeds/yuranosuke/files/feed.zip"
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "28"
@@ -192,27 +136,6 @@
       }
     },
     {
-      "id": "f-anjocity~ankurubus",
-      "supersedes_ids": [
-        "f-安城市~あんくるバス"
-      ],
-      "name": "あんくるバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/anjocity/feeds/AnkuruBus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
       "id": "f-annakacity~annakashi~rosenbus",
       "name": "安中市路線バス",
       "spec": "gtfs",
@@ -228,27 +151,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "10"
-      }
-    },
-    {
-      "id": "f-aoi~komaki~aoikotsu",
-      "supersedes_ids": [
-        "f-あおい交通"
-      ],
-      "name": "あおい交通",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/aoi-komaki/feeds/aoikotsu/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "23"
       }
     },
     {
@@ -306,27 +208,6 @@
       }
     },
     {
-      "id": "f-asatetu~asakaigantetsudo",
-      "supersedes_ids": [
-        "f-阿佐海岸鉄道"
-      ],
-      "name": "阿佐海岸鉄道株式会社【DMV】",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/asatetu/feeds/asakaigantetsudo/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
-      }
-    },
-    {
       "id": "f-ashikagacity~ashikaga~route~bus",
       "name": "足利市路線バス",
       "spec": "gtfs",
@@ -363,20 +244,6 @@
       }
     },
     {
-      "id": "f-awajicity~awajinawahimebus",
-      "supersedes_ids": [
-        "f-淡路市~あわ神あわ姫バス"
-      ],
-      "name": "あわ神あわ姫バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/awajicity/feeds/awajinawahimebus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
       "id": "f-awajicity~awaji~jenova~line~akashi~iwaya",
       "name": "淡路ジェノバライン明石岩屋航路",
       "spec": "gtfs",
@@ -385,27 +252,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-busnet~tsu~guruttotsubus",
-      "supersedes_ids": [
-        "f-バスネット津~ぐるっと~つーバス"
-      ],
-      "name": "ぐるっと・つーバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/busnet-tsu/feeds/guruttotsubus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
       }
     },
     {
@@ -592,52 +438,12 @@
       }
     },
     {
-      "id": "f-chitetsu~chitetsubus",
-      "supersedes_ids": [
-        "f-富山地鉄バス富山地方鉄道"
-      ],
-      "name": "富山地方鉄道バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/chitetsu/feeds/chitetsubus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-chitetsu~chitetsubus~rt",
       "name": "富山地方鉄道バス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/chitetsu/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/chitetsu/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-chitetsu~chitetsushinaidensha",
-      "supersedes_ids": [
-        "f-富山地鉄市内電車"
-      ],
-      "name": "富山地方鉄道市内電車",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/chitetsu/feeds/chitetsushinaidensha/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
       }
     },
     {
@@ -700,27 +506,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "40"
-      }
-    },
-    {
-      "id": "f-enacity~communitybus",
-      "supersedes_ids": [
-        "f-恵那市自主運行バス"
-      ],
-      "name": "恵那市自主運行バス（コミュニティバス）",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/enacity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
       }
     },
     {
@@ -829,20 +614,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "40"
-      }
-    },
-    {
-      "id": "f-fukusakitown~junkai~fukuhime~fukusakikasairenkei",
-      "supersedes_ids": [
-        "f-福崎町コミュニティバス巡回バスふくひめ号福崎町~加西市連携コミュニティバス"
-      ],
-      "name": "巡回バス/ふくひめ号/福崎町・加西市連携コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/fukusakitown/feeds/junkai-fukuhime-fukusakikasairenkei/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
       }
     },
     {
@@ -1098,27 +869,6 @@
       }
     },
     {
-      "id": "f-hakusancity~hakusan~bus~meguru",
-      "supersedes_ids": [
-        "f-白山市コミュニティバスめぐーる"
-      ],
-      "name": "白山市コミュニティバス「めぐーる」",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/hakusancity/feeds/hakusan_bus_meguru/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "17"
-      }
-    },
-    {
       "id": "f-hanamakicity~hanamaki",
       "name": "花巻市コミュニティバス",
       "spec": "gtfs",
@@ -1223,27 +973,6 @@
       }
     },
     {
-      "id": "f-hayashimatown~hayashimatowncommunitybus",
-      "supersedes_ids": [
-        "f-早島町コミュニティバス"
-      ],
-      "name": "早島町コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/hayashimatown/feeds/hayashimatowncommunitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "33"
-      }
-    },
-    {
       "id": "f-hekinancity~kurukuru~bus",
       "name": "くるくるバス",
       "spec": "gtfs",
@@ -1259,48 +988,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
-      "id": "f-hichisotown~choeibus",
-      "supersedes_ids": [
-        "f-七宗町営バス"
-      ],
-      "name": "七宗町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/hichisotown/feeds/choeibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
-      "id": "f-hidacity~communitybus",
-      "supersedes_ids": [
-        "f-飛騨市おでかけバスひだまる"
-      ],
-      "name": "飛騨市営バス「ひだまる」",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/hidacity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
       }
     },
     {
@@ -1340,27 +1027,6 @@
       }
     },
     {
-      "id": "f-higashinecity~higashinecity",
-      "supersedes_ids": [
-        "f-東根市~市民バス"
-      ],
-      "name": "東根市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/higashinecity/feeds/HigashineCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
       "id": "f-higashiomicity~higasiohmisicommunitybus",
       "name": "東近江市ちょこっとバス",
       "spec": "gtfs",
@@ -1376,41 +1042,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "25"
-      }
-    },
-    {
-      "id": "f-higashiuratown~communitybus",
-      "supersedes_ids": [
-        "f-東浦町運行バスう~ら~ら"
-      ],
-      "name": "東浦町運行バス　う・ら・ら",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/higashiuratown/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
-      "id": "f-himejicity~ieshima~boze~yukihiko",
-      "supersedes_ids": [
-        "f-姫路市コミュニティバス"
-      ],
-      "name": "家島コミュニティバス/坊勢コミュニティバス/コミュニティバス雪彦",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/himejicity/feeds/ieshima-boze-yukihiko/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
       }
     },
     {
@@ -1558,26 +1189,6 @@
       }
     },
     {
-      "id": "f-hokushin~bus~hokushinbus",
-      "supersedes_ids": [
-        "f-北振バス"
-      ],
-      "name": "北振バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/hokushin-bus/feeds/hokushinbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "33"
-      }
-    },
-    {
       "id": "f-hokushin~bus~ibaraaiaibus",
       "name": "井原あいあいバス",
       "spec": "gtfs",
@@ -1592,56 +1203,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "33"
-      }
-    },
-    {
-      "id": "f-hyogo~kamikawatown~communitybus",
-      "supersedes_ids": [
-        "f-神河町コミュニティバス"
-      ],
-      "name": "コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/hyogo-kamikawatown/feeds/communitybus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-hyogo~ono~ranranbus",
-      "supersedes_ids": [
-        "f-小野市コミュニティバス",
-        "f-小野市コミュニティバス~1"
-      ],
-      "name": "らんらんバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/hyogo-ono/feeds/ranranbus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-ibigawatown~communitybus",
-      "supersedes_ids": [
-        "f-揖斐川町~ふれあいバス"
-      ],
-      "name": "揖斐川町ふれあいバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/ibigawatown/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
       }
     },
     {
@@ -1660,20 +1221,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "19"
-      }
-    },
-    {
-      "id": "f-ichikawatown~communitybus",
-      "supersedes_ids": [
-        "f-市川町コミュニティバス"
-      ],
-      "name": "コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/ichikawatown/feeds/communitybus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
       }
     },
     {
@@ -1766,26 +1313,6 @@
       }
     },
     {
-      "id": "f-imizucity~imizushi",
-      "supersedes_ids": [
-        "f-射水市~きときとバス"
-      ],
-      "name": "きときとバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/imizucity/feeds/imizushi/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-imizucity~imizushi~rt",
       "name": "きときとバス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
@@ -1810,20 +1337,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "24"
-      }
-    },
-    {
-      "id": "f-inagawatown~fureaibus",
-      "supersedes_ids": [
-        "f-猪名川町~ふれあいバス"
-      ],
-      "name": "ふれあいバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/inagawatown/feeds/fureaibus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
       }
     },
     {
@@ -1881,27 +1394,6 @@
       }
     },
     {
-      "id": "f-isecity~communitybus",
-      "supersedes_ids": [
-        "f-伊勢市コミュニティバスおかげバス沼木バス"
-      ],
-      "name": "伊勢市コミュニティバス「おかげバス」",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/isecity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
-      }
-    },
-    {
       "id": "f-isecity~communitybus~rt",
       "name": "伊勢市コミュニティバス「おかげバス」 - Trip Updates + Vehicle Positions + Alerts",
       "spec": "gtfs-rt",
@@ -1917,27 +1409,6 @@
       "spec": "gtfs",
       "urls": {
         "static_current": "https://api.gtfs-data.jp/v2/organizations/isecity/feeds/numakibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
-      }
-    },
-    {
-      "id": "f-isetetu~iserailway",
-      "supersedes_ids": [
-        "f-伊勢鉄道"
-      ],
-      "name": "伊勢鉄道",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/isetetu/feeds/iserailway/files/feed.zip"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -2004,20 +1475,6 @@
       }
     },
     {
-      "id": "f-joetsucity~joetsu",
-      "supersedes_ids": [
-        "f-上越市市営バス"
-      ],
-      "name": "上越市市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/joetsucity/feeds/joetsu/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "15"
-      }
-    },
-    {
       "id": "f-jr~east~morioka~jreast~wandotaxi",
       "name": "わんタク定時便",
       "spec": "gtfs",
@@ -2072,26 +1529,6 @@
       }
     },
     {
-      "id": "f-kaetsunou~kaetsunouhimi",
-      "supersedes_ids": [
-        "f-加能越バス~氷見市街地周遊バス"
-      ],
-      "name": "加越能バス（氷見市街地周遊バス）",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kaetsunou/feeds/kaetsunouhimi/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-kaetsunou~kaetsunouhimi~rt",
       "name": "加越能バス（氷見市街地周遊バス） - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
@@ -2101,52 +1538,12 @@
       }
     },
     {
-      "id": "f-kaetsunou~kaetsunouippan",
-      "supersedes_ids": [
-        "f-加越能バス~一般路線"
-      ],
-      "name": "加越能バス（一般路線）",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kaetsunou/feeds/kaetsunouippan/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-kaetsunou~kaetsunouippan~rt",
       "name": "加越能バス（一般路線） - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/kaetsuno/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/kaetsuno/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-kaetsunou~kaetsunousekaiisan",
-      "supersedes_ids": [
-        "f-加越能バス~世界遺産バス"
-      ],
-      "name": "加越能バス（世界遺産バス）",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kaetsunou/feeds/kaetsunousekaiisan/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
       }
     },
     {
@@ -2177,48 +1574,6 @@
       }
     },
     {
-      "id": "f-kagoshimacity~aibus",
-      "supersedes_ids": [
-        "f-鹿児島市コミュニティバスあいばす"
-      ],
-      "name": "鹿児島市コミュニティバス「あいばす」",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kagoshimacity/feeds/aibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "46"
-      }
-    },
-    {
-      "id": "f-kahokutown~kahokutown",
-      "supersedes_ids": [
-        "f-河北町路線バス"
-      ],
-      "name": "河北町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kahokutown/feeds/KahokuTown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
       "id": "f-kaicity~kaicitybus",
       "name": "甲斐市民バス",
       "spec": "gtfs",
@@ -2233,48 +1588,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "19"
-      }
-    },
-    {
-      "id": "f-kaiyotown~kaiyotownbus",
-      "supersedes_ids": [
-        "f-海陽町営バス"
-      ],
-      "name": "海陽町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kaiyotown/feeds/kaiyotownbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
-      }
-    },
-    {
-      "id": "f-kaizucity~communitybus",
-      "supersedes_ids": [
-        "f-海津市コミュニティバス"
-      ],
-      "name": "海津市コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kaizucity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
       }
     },
     {
@@ -2297,20 +1610,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "22"
-      }
-    },
-    {
-      "id": "f-kakogawacity~kakobuskakobusmini",
-      "supersedes_ids": [
-        "f-加古川市~かこバス~かこバスミニ"
-      ],
-      "name": "かこバス/かこバスミニ",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kakogawacity/feeds/kakobuskakobusmini/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
       }
     },
     {
@@ -2386,67 +1685,12 @@
       }
     },
     {
-      "id": "f-kamigoritown~ainorigo",
-      "supersedes_ids": [
-        "f-上郡町~愛のり号"
-      ],
-      "name": "愛のり号",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kamigoritown/feeds/ainorigo/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-kamiichitown~kamiichi",
-      "supersedes_ids": [
-        "f-上市町~上市町営バス"
-      ],
-      "name": "上市町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kamiichitown/feeds/kamiichi/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-kamiichitown~kamiichi~rt",
       "name": "上市町営バス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/kamiichi-town/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/kamiichi-town/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-kaminoyamacity~kaminoyamacity",
-      "supersedes_ids": [
-        "f-上山市営バス"
-      ],
-      "name": "上山市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kaminoyamacity/feeds/KaminoyamaCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
       }
     },
     {
@@ -2593,20 +1837,6 @@
       }
     },
     {
-      "id": "f-kasaicity~kasaineppihappybus",
-      "supersedes_ids": [
-        "f-加西市~kasaiねっぴ~号~はっぴーバス"
-      ],
-      "name": "KASAIねっぴー号/はっぴーバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kasaicity/feeds/kasaineppihappybus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
       "id": "f-kasaicity~unifureaitomi",
       "name": "宇仁ふれあいバス/とみバス",
       "spec": "gtfs",
@@ -2615,27 +1845,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-kasamatsutown~communitybus",
-      "supersedes_ids": [
-        "f-笠松町公共施設巡回町民バス"
-      ],
-      "name": "笠松町公共施設巡回町民バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kasamatsutown/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
       }
     },
     {
@@ -2741,27 +1950,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "24"
-      }
-    },
-    {
-      "id": "f-keisei~transitbus~keiseitransitbus",
-      "supersedes_ids": [
-        "f-京成トランジットバス"
-      ],
-      "name": "京成バス千葉ウエスト　塩浜営業所（市川市コミュニティバス　南部ルート　わくわくバス含む）",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/keisei-transitbus/feeds/keiseitransitbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "12"
       }
     },
     {
@@ -2948,27 +2136,6 @@
       }
     },
     {
-      "id": "f-kitaena~kitaena",
-      "supersedes_ids": [
-        "f-北恵那バス北恵那交通"
-      ],
-      "name": "北恵那交通",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kitaena/feeds/kitaena/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
       "id": "f-kitagawavillage~gtfs~kitagawavill~bus",
       "name": "北川村営バス",
       "spec": "gtfs",
@@ -2984,27 +2151,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "39"
-      }
-    },
-    {
-      "id": "f-kitajimatown~kitajimatownfukushibus",
-      "supersedes_ids": [
-        "f-北島町福祉バス"
-      ],
-      "name": "北島町福祉バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kitajimatown/feeds/kitajimatownfukushibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
       }
     },
     {
@@ -3217,20 +2363,6 @@
         "create_derived_product": "yes",
         "redistribution_allowed": "yes",
         "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-kobecity~kobe~shiokaze",
-      "supersedes_ids": [
-        "f-神戸市垂水区~塩屋コミュニティバスしおかぜ"
-      ],
-      "name": "神戸市コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kobecity/feeds/kobe-shiokaze/files/feed.zip"
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "28"
@@ -3639,48 +2771,6 @@
       }
     },
     {
-      "id": "f-kotosan~marugame~community",
-      "supersedes_ids": [
-        "f-丸亀市~丸亀コミュニティバス"
-      ],
-      "name": "丸亀コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kotosan/feeds/marugame-community/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "37"
-      }
-    },
-    {
-      "id": "f-kotosan~sakaide~local",
-      "supersedes_ids": [
-        "f-琴参バス坂出営業所"
-      ],
-      "name": "坂出路線",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kotosan/feeds/sakaide-local/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "37"
-      }
-    },
-    {
       "id": "f-kotosan~sakaide~seisen",
       "name": "坂出瀬居線",
       "spec": "gtfs",
@@ -3785,20 +2875,6 @@
         "realtime_vehicle_positions": "https://km.bus-vision.jp/realtime/dentetsu_vpos_update.bin",
         "realtime_trip_updates": "https://km.bus-vision.jp/realtime/dentetsu_trip_update.bin",
         "realtime_alerts": "https://km.bus-vision.jp/realtime/dentetsu_alrt_update.bin"
-      }
-    },
-    {
-      "id": "f-kumamoto~shiden~kumamotoshiden",
-      "supersedes_ids": [
-        "f-熊本市電"
-      ],
-      "name": "熊本市電",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kumamoto-shiden/feeds/kumamotoshiden/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "43"
       }
     },
     {
@@ -4116,48 +3192,6 @@
       }
     },
     {
-      "id": "f-kuwanacity~communitybus",
-      "supersedes_ids": [
-        "f-桑名市~k~バス"
-      ],
-      "name": "桑名市コミュニティバス「Ｋ－バス」",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/kuwanacity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
-      }
-    },
-    {
-      "id": "f-mamurogawatown~mamurogawatown",
-      "supersedes_ids": [
-        "f-真室川町路線バス"
-      ],
-      "name": "真室川町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/mamurogawatown/feeds/MamurogawaTown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
       "id": "f-maniwacity~maniwakun",
       "name": "真庭市コミュニティバス「まにわくん」",
       "spec": "gtfs",
@@ -4172,26 +3206,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "33"
-      }
-    },
-    {
-      "id": "f-manyosen~manyosen",
-      "supersedes_ids": [
-        "f-万葉線"
-      ],
-      "name": "万葉線",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/manyosen/feeds/manyosen/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
       }
     },
     {
@@ -4291,48 +3305,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "20"
-      }
-    },
-    {
-      "id": "f-matsusakacity~communitybus",
-      "supersedes_ids": [
-        "f-松阪市コミュニティ交通"
-      ],
-      "name": "松阪市コミュニティ交通",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/matsusakacity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
-      }
-    },
-    {
-      "id": "f-matsushigetown~matsushigetownbus",
-      "supersedes_ids": [
-        "f-松茂町地域コミュニティバス"
-      ],
-      "name": "松茂町地域コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/matsushigetown/feeds/matsushigetownbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
       }
     },
     {
@@ -4630,20 +3602,6 @@
       }
     },
     {
-      "id": "f-minamiawajicity~lanrunbus",
-      "supersedes_ids": [
-        "f-南あわじ市コミュニティバス~らん~らんバス"
-      ],
-      "name": "らん・らんバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/minamiawajicity/feeds/lanrunbus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
       "id": "f-minamichitatown~communitybus",
       "name": "南知多町海っ子バス",
       "spec": "gtfs",
@@ -4659,27 +3617,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
-      "id": "f-minamiisetown~choeibus",
-      "supersedes_ids": [
-        "f-南伊勢町~町営バス"
-      ],
-      "name": "南伊勢町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/minamiisetown/feeds/choeibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
       }
     },
     {
@@ -4950,27 +3887,6 @@
       }
     },
     {
-      "id": "f-minokamocity~communitybus",
-      "supersedes_ids": [
-        "f-美濃加茂市コミュニティバスあい愛バス"
-      ],
-      "name": "美濃加茂市コミュニティバス「あい愛バス」",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/minokamocity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
       "id": "f-misawacity~misawacity~mebus",
       "name": "三沢市コミュニティバス「みーばす」",
       "spec": "gtfs",
@@ -5112,48 +4028,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "40"
-      }
-    },
-    {
-      "id": "f-mizunamicity~communitybus",
-      "supersedes_ids": [
-        "f-瑞浪市コミュニティバス"
-      ],
-      "name": "瑞浪市コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/mizunamicity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
-      "id": "f-mogamigawakotsu~mogamigawakotsu",
-      "supersedes_ids": [
-        "f-最上川交通"
-      ],
-      "name": "最上川交通",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/mogamigawakotsu/feeds/MOGAMIGAWAKOTSU/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
       }
     },
     {
@@ -5355,27 +4229,6 @@
       }
     },
     {
-      "id": "f-murayamacity~murayamacity",
-      "supersedes_ids": [
-        "f-村山市~市営バス"
-      ],
-      "name": "村山市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/murayamacity/feeds/MurayamaCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
       "id": "f-murotocity~gtfs~murotocity~bus",
       "name": "室戸市コミュニティバス「むろはぴ号」",
       "spec": "gtfs",
@@ -5391,27 +4244,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "39"
-      }
-    },
-    {
-      "id": "f-nabaricity~communitybus",
-      "supersedes_ids": [
-        "f-名張市コミュニティバス"
-      ],
-      "name": "名張市コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nabaricity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
       }
     },
     {
@@ -5523,48 +4355,6 @@
       }
     },
     {
-      "id": "f-nagaicity~nagaicity",
-      "supersedes_ids": [
-        "f-長井市営バス"
-      ],
-      "name": "長井市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nagaicity/feeds/NagaiCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-nagai~unyu~nagaibus",
-      "supersedes_ids": [
-        "f-永井バス永井運輸~3"
-      ],
-      "name": "永井バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nagai-unyu/feeds/Nagaibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "10"
-      }
-    },
-    {
       "id": "f-nagai~unyu~nagaibus~rt",
       "name": "永井バス - Trip Updates + Vehicle Positions + Alerts",
       "spec": "gtfs-rt",
@@ -5665,27 +4455,6 @@
       }
     },
     {
-      "id": "f-nagareyamacity~nagareyamagreenbus",
-      "supersedes_ids": [
-        "f-流山市~流山ぐりーんバス"
-      ],
-      "name": "流山ぐりーんバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nagareyamacity/feeds/nagareyamagreenbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "12"
-      }
-    },
-    {
       "id": "f-nagisotown~communitybus",
       "name": "南木曽町地域バス",
       "spec": "gtfs",
@@ -5755,27 +4524,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "39"
-      }
-    },
-    {
-      "id": "f-nakatown~nakatownbus",
-      "supersedes_ids": [
-        "f-那賀町営バス"
-      ],
-      "name": "那賀町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nakatown/feeds/nakatownbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
       }
     },
     {
@@ -6103,48 +4851,6 @@
       }
     },
     {
-      "id": "f-nakatsugawacity~communitybus",
-      "supersedes_ids": [
-        "f-中津川市コミュニティバス"
-      ],
-      "name": "中津川市コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nakatsugawacity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
-      "id": "f-nakayamatown~nakayamatown",
-      "supersedes_ids": [
-        "f-中山町~町営バス"
-      ],
-      "name": "中山町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nakayamatown/feeds/NakayamaTown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
       "id": "f-namegatacity~bus~namegata~ibaraki~jp",
       "name": "行方市営路線バス",
       "spec": "gtfs",
@@ -6160,26 +4866,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "8"
-      }
-    },
-    {
-      "id": "f-namerikawacity~norumycar",
-      "supersedes_ids": [
-        "f-滑川市~のる~my~car~1"
-      ],
-      "name": "コミュニティバス「のるmycar」",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/namerikawacity/feeds/norumycar/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
       }
     },
     {
@@ -6228,53 +4914,12 @@
       }
     },
     {
-      "id": "f-nantocity~nanbus",
-      "supersedes_ids": [
-        "f-南砺市~なんバス南砺市営バス~1"
-      ],
-      "name": "南砺市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nantocity/feeds/nanbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-nantocity~nanbus~rt",
       "name": "南砺市営バス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/nanto-city/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/nanto-city/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-nanyocity~nanyocity",
-      "supersedes_ids": [
-        "f-南陽市~市内循環バス"
-      ],
-      "name": "南陽市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nanyocity/feeds/NanyoCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
       }
     },
     {
@@ -6311,48 +4956,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "12"
-      }
-    },
-    {
-      "id": "f-narutocity~narutocitychiikibus",
-      "supersedes_ids": [
-        "f-鳴門市地域バス"
-      ],
-      "name": "鳴門市地域バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/narutocity/feeds/narutocitychiikibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
-      }
-    },
-    {
-      "id": "f-narutocity~narutocitytosen",
-      "supersedes_ids": [
-        "f-鳴門市営渡船"
-      ],
-      "name": "鳴門市営渡船",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/narutocity/feeds/narutocitytosen/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
       }
     },
     {
@@ -6427,48 +5030,6 @@
       }
     },
     {
-      "id": "f-nikkocity~nikkocity",
-      "supersedes_ids": [
-        "f-日光市営バス"
-      ],
-      "name": "日光市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nikkocity/feeds/nikkocity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "9"
-      }
-    },
-    {
-      "id": "f-ninomiyatown~ninomiyatowncommunitybus",
-      "supersedes_ids": [
-        "f-二宮町コミュニティバス"
-      ],
-      "name": "二宮町コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/ninomiyatown/feeds/Ninomiyatowncommunitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "14"
-      }
-    },
-    {
       "id": "f-nirasakicity~shiminbus",
       "name": "韮崎市民バス",
       "spec": "gtfs",
@@ -6483,41 +5044,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "19"
-      }
-    },
-    {
-      "id": "f-nishikawatown~nishikawatown",
-      "supersedes_ids": [
-        "f-西川町路線バス"
-      ],
-      "name": "西川町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nishikawatown/feeds/NishikawaTown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-nishinomiyacity~guruttonamaze",
-      "supersedes_ids": [
-        "f-西宮市コミュニティ交通ぐるっと生瀬"
-      ],
-      "name": "ぐるっと生瀬",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nishinomiyacity/feeds/guruttonamaze/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
       }
     },
     {
@@ -6557,60 +5083,6 @@
       }
     },
     {
-      "id": "f-nishinomiyacity~sakurayamanami",
-      "supersedes_ids": [
-        "f-西宮市~さくらやまなみバス"
-      ],
-      "name": "さくらやまなみバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nishinomiyacity/feeds/sakurayamanami/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-nishiocity~meitestu~tobu",
-      "supersedes_ids": [
-        "f-名鉄東部交通バス"
-      ],
-      "name": "名鉄東部交通バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nishiocity/feeds/meitestu_tobu/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
-      "id": "f-nishiocity~rokumangokukururinbus",
-      "supersedes_ids": [
-        "f-西尾市~六万石くるりんバス"
-      ],
-      "name": "六万石くるりんバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nishiocity/feeds/rokumangokukururinbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
       "id": "f-nishiocity~tosen",
       "name": "佐久島渡船",
       "spec": "gtfs",
@@ -6619,41 +5091,6 @@
       },
       "license": {
         "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
-      "id": "f-nishiwakicity~loopbus~orihimebus",
-      "supersedes_ids": [
-        "f-西脇市コミュニティバスループバスめぐリンおりひめバス"
-      ],
-      "name": "ループバス/おりひめバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nishiwakicity/feeds/loopbus-orihimebus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-nisshincity~communitybus",
-      "supersedes_ids": [
-        "f-日進市巡回バス~くるりんばす"
-      ],
-      "name": "くるりんばす（日進市巡回バス）",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nisshincity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
         "create_derived_product": "yes",
         "redistribution_allowed": "yes",
         "commercial_use_allowed": "yes"
@@ -6717,116 +5154,12 @@
       }
     },
     {
-      "id": "f-nouhibus~nouhibus",
-      "supersedes_ids": [
-        "f-濃飛バス一般路線"
-      ],
-      "name": "濃飛バス（一般路線）",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nouhibus/feeds/nouhibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
-      "id": "f-nouhibus~nouhibus~kanko",
-      "supersedes_ids": [
-        "f-濃飛バス観光路線"
-      ],
-      "name": "濃飛バス（観光路線）",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nouhibus/feeds/nouhibus_kanko/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
-      "id": "f-nouhibus~takayama~shuyu",
-      "supersedes_ids": [
-        "f-濃飛バス高山周遊バス"
-      ],
-      "name": "飛騨高山周遊バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nouhibus/feeds/takayama_shuyu/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
-      "id": "f-nyuzentown~noranmaicar",
-      "supersedes_ids": [
-        "f-入善町~入善町営バスのらんマイ~カー"
-      ],
-      "name": "のらんマイ・カー",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/nyuzentown/feeds/noranmaicar/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-nyuzentown~noranmaicar~rt",
       "name": "のらんマイ・カー - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/nyuzen_noran/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/nyuzen_noran/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-obanazawacity~obanazawacity",
-      "supersedes_ids": [
-        "f-尾花沢市路線バス"
-      ],
-      "name": "尾花沢市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/obanazawacity/feeds/ObanazawaCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
       }
     },
     {
@@ -6845,48 +5178,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "24"
-      }
-    },
-    {
-      "id": "f-oetown~oetown",
-      "supersedes_ids": [
-        "f-大江町営バス"
-      ],
-      "name": "大江町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/oetown/feeds/Oetown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-ogakicity~meihankintetsubus",
-      "supersedes_ids": [
-        "f-名阪近鉄バス"
-      ],
-      "name": "名阪近鉄バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/ogakicity/feeds/meihankintetsubus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
       }
     },
     {
@@ -6923,48 +5214,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
-      "id": "f-ohkuravillage~ohkuravillage",
-      "supersedes_ids": [
-        "f-大蔵町~肘折ゆけむりライン"
-      ],
-      "name": "大蔵村営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/ohkuravillage/feeds/OhkuraVillage/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-oizumitown~kouikikoukyoubasuaozora",
-      "supersedes_ids": [
-        "f-大泉町~千代田町~広域公共バスあおぞら"
-      ],
-      "name": "広域公共バス「あおぞら」",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/oizumitown/feeds/kouikikoukyoubasuaozora/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "10"
       }
     },
     {
@@ -7246,26 +5495,6 @@
       }
     },
     {
-      "id": "f-oyabecity~oyabecitybus",
-      "supersedes_ids": [
-        "f-小矢部市~小矢部市営バスメルバス~乗合タクシー~1"
-      ],
-      "name": "小矢部市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/oyabecity/feeds/oyabecitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-oyabecity~oyabecitybus~rt",
       "name": "小矢部市営バス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
@@ -7398,27 +5627,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "30"
-      }
-    },
-    {
-      "id": "f-sagaecity~sagaecity",
-      "supersedes_ids": [
-        "f-寒河江市内循環バススマイル号"
-      ],
-      "name": "寒河江市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/sagaecity/feeds/SagaeCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
       }
     },
     {
@@ -7674,27 +5882,6 @@
       }
     },
     {
-      "id": "f-sakatacity~sakatacity",
-      "supersedes_ids": [
-        "f-酒田市~るんるんバス"
-      ],
-      "name": "酒田市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/sakatacity/feeds/SakataCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
       "id": "f-sakawatown~gtfs~sakawatown~bus",
       "name": "佐川町コミュニティバス「さかわぐるぐるバス」",
       "spec": "gtfs",
@@ -7710,27 +5897,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "39"
-      }
-    },
-    {
-      "id": "f-sakegawavillage~sakegawavillage",
-      "supersedes_ids": [
-        "f-鮭川村村営バス"
-      ],
-      "name": "鮭川村営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/sakegawavillage/feeds/SakegawaVillage/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
       }
     },
     {
@@ -7813,41 +5979,6 @@
         "realtime_vehicle_positions": "https://km.bus-vision.jp/realtime/sankobus_vpos_update.bin",
         "realtime_trip_updates": "https://km.bus-vision.jp/realtime/sankobus_trip_update.bin",
         "realtime_alerts": "https://km.bus-vision.jp/realtime/sankobus_alrt_update.bin"
-      }
-    },
-    {
-      "id": "f-sayotown~communitybus",
-      "supersedes_ids": [
-        "f-佐用町~コミバス佐用"
-      ],
-      "name": "コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/sayotown/feeds/communitybus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-seikatsubus~yokkaichi~sbusyokkaichi",
-      "supersedes_ids": [
-        "f-生活バスよっかいち"
-      ],
-      "name": "生活バスよっかいち",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/seikatsubus-yokkaichi/feeds/sbusyokkaichi/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
       }
     },
     {
@@ -8088,27 +6219,6 @@
       }
     },
     {
-      "id": "f-shimadacity~shimada~combus",
-      "supersedes_ids": [
-        "f-島田市コミュニティバス"
-      ],
-      "name": "島田市コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/shimadacity/feeds/shimada_combus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "22"
-      }
-    },
-    {
       "id": "f-shimantocity~gtfs~shimantocity~bus",
       "name": "四万十市営バス",
       "spec": "gtfs",
@@ -8289,27 +6399,6 @@
       }
     },
     {
-      "id": "f-shinjocity~shinjocity",
-      "supersedes_ids": [
-        "f-新庄市~市営バス"
-      ],
-      "name": "新庄市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/shinjocity/feeds/ShinjoCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
       "id": "f-shinkikanko~limonbus",
       "name": "Limon Bus",
       "spec": "gtfs",
@@ -8325,20 +6414,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "27"
-      }
-    },
-    {
-      "id": "f-shinonsentown~yumetsubame",
-      "supersedes_ids": [
-        "f-新温泉町~町民バス夢つばめ"
-      ],
-      "name": "町民バス夢つばめ",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/shinonsentown/feeds/yumetsubame/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
       }
     },
     {
@@ -8378,27 +6453,6 @@
       }
     },
     {
-      "id": "f-shiratakatown~shiratakatown",
-      "supersedes_ids": [
-        "f-白鷹町~町営バス"
-      ],
-      "name": "白鷹町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/shiratakatown/feeds/ShiratakaTown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
       "id": "f-shirotori~kotsu~shirotorikotsu",
       "name": "白鳥交通",
       "spec": "gtfs",
@@ -8414,20 +6468,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
-      "id": "f-shisocity~shitanbus",
-      "supersedes_ids": [
-        "f-宍粟市~しーたんバス"
-      ],
-      "name": "しーたんバス（蔦沢線・大谷線）",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/shisocity/feeds/shitanbus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
       }
     },
     {
@@ -8568,68 +6608,6 @@
       }
     },
     {
-      "id": "f-shonaikotsu~shonaikotsu",
-      "supersedes_ids": [
-        "f-庄内交通~1"
-      ],
-      "name": "庄内交通",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/shonaikotsu/feeds/SHONAIKOTSU/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-shonaitown~shonaitown",
-      "supersedes_ids": [
-        "f-庄内町~町営バス"
-      ],
-      "name": "庄内町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/shonaitown/feeds/ShonaiTown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-shootown~shoochofureaibus",
-      "supersedes_ids": [
-        "f-勝央町ふれあいバス"
-      ],
-      "name": "勝央町ふれあいバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/shootown/feeds/shoochofureaibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "33"
-      }
-    },
-    {
       "id": "f-soedatown~soedamachibus",
       "name": "添田町バス",
       "spec": "gtfs",
@@ -8735,20 +6713,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "39"
-      }
-    },
-    {
-      "id": "f-sumotocity~communitybus",
-      "supersedes_ids": [
-        "f-洲本市コミュニティバス"
-      ],
-      "name": "コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/sumotocity/feeds/communitybus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
       }
     },
     {
@@ -8871,60 +6835,12 @@
       }
     },
     {
-      "id": "f-takaokacity~koueibus",
-      "supersedes_ids": [
-        "f-高岡市~高岡市公営バス福岡地域"
-      ],
-      "name": "高岡市公営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/takaokacity/feeds/koueibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-takaokacity~koueibus~rt",
       "name": "高岡市公営バス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/takaoka-city/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/takaoka-city/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-takarazukacity~runrunbus",
-      "supersedes_ids": [
-        "f-宝塚市~ランランバス"
-      ],
-      "name": "ランランバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/takarazukacity/feeds/runrunbus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-takasagocity~jotonbus",
-      "supersedes_ids": [
-        "f-高砂市~じょうとんバス"
-      ],
-      "name": "じょうとんバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/takasagocity/feeds/jotonbus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
       }
     },
     {
@@ -8979,27 +6895,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
-      "id": "f-taketoyotown~communitybus",
-      "supersedes_ids": [
-        "f-武豊町ゆめころん"
-      ],
-      "name": "武豊町コミュニティバス「ゆめころん」",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/taketoyotown/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "23"
       }
     },
     {
@@ -9103,109 +6998,12 @@
       }
     },
     {
-      "id": "f-tateyamatown~tateyama",
-      "supersedes_ids": [
-        "f-立山町~立山町営バス"
-      ],
-      "name": "立山町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tateyamatown/feeds/tateyama/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-tateyamatown~tateyama~rt",
       "name": "立山町営バス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/tateyama-town/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/tateyama-town/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-tatsunocity~communitybus",
-      "supersedes_ids": [
-        "f-たつの市コミュニティバス"
-      ],
-      "name": "コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tatsunocity/feeds/communitybus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-tendocity~tendocity",
-      "supersedes_ids": [
-        "f-天童市~市営バス"
-      ],
-      "name": "天童市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tendocity/feeds/TendoCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-tobacity~communitybus",
-      "supersedes_ids": [
-        "f-鳥羽市~かもめバス"
-      ],
-      "name": "鳥羽市　かもめバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tobacity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
-      }
-    },
-    {
-      "id": "f-tobacity~teikisen",
-      "supersedes_ids": [
-        "f-鳥羽市~市営定期船"
-      ],
-      "name": "鳥羽市営定期船",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tobacity/feeds/teikisen/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
       }
     },
     {
@@ -9241,27 +7039,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "2"
-      }
-    },
-    {
-      "id": "f-tohtetsu~tohtetsu~ena",
-      "supersedes_ids": [
-        "f-東鉄バス東濃鉄道"
-      ],
-      "name": "東濃鉄道（東鉄バス）恵那営業所管内",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tohtetsu/feeds/tohtetsu_ena/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
       }
     },
     {
@@ -9337,27 +7114,6 @@
       }
     },
     {
-      "id": "f-tokicity~communitybus",
-      "supersedes_ids": [
-        "f-土岐市~市民バス"
-      ],
-      "name": "土岐市民バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tokicity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "21"
-      }
-    },
-    {
       "id": "f-tokonamecity~gruun",
       "name": "コミュニティバスグルーン",
       "spec": "gtfs",
@@ -9382,152 +7138,6 @@
         "realtime_vehicle_positions": "https://realtime.gtfs.info/gruun/vehicle.pb",
         "realtime_trip_updates": "https://realtime.gtfs.info/gruun/trip_update.pb",
         "realtime_alerts": "https://realtime.gtfs.info/gruun/alert.pb"
-      }
-    },
-    {
-      "id": "f-tokubus~nanbu~tokushimabusnanbu",
-      "supersedes_ids": [
-        "f-徳島バス南部"
-      ],
-      "name": "徳島バス南部株式会社",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tokubus-nanbu/feeds/tokushimabusnanbu/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
-      }
-    },
-    {
-      "id": "f-tokubus~tokushimabus",
-      "supersedes_ids": [
-        "f-徳島バス"
-      ],
-      "name": "徳島バス株式会社",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tokubus/feeds/tokushimabus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
-      }
-    },
-    {
-      "id": "f-tokushimacity~kamihachimanbus",
-      "supersedes_ids": [
-        "f-徳島市~上八万コミュニティバス"
-      ],
-      "name": "上八万コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tokushimacity/feeds/kamihachimanbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
-      }
-    },
-    {
-      "id": "f-tokushimacity~oujinfureaibus",
-      "supersedes_ids": [
-        "f-徳島市~応神ふれあいバス"
-      ],
-      "name": "応神ふれあいバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tokushimacity/feeds/oujinfureaibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
-      }
-    },
-    {
-      "id": "f-tokushima~miyoshicity~miyoshicitybus",
-      "supersedes_ids": [
-        "f-三好市営バス"
-      ],
-      "name": "三好市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tokushima-miyoshicity/feeds/miyoshicitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
-      }
-    },
-    {
-      "id": "f-tokushima~shiei~tokushimacitybus",
-      "supersedes_ids": [
-        "f-徳島市営バス~1"
-      ],
-      "name": "徳島市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tokushima-shiei/feeds/tokushimacitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
-      }
-    },
-    {
-      "id": "f-tonamicity~tonamishieibasu",
-      "supersedes_ids": [
-        "f-砺波市~砺波市営バス~1"
-      ],
-      "name": "砺波市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tonamicity/feeds/tonamishieibasu/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
       }
     },
     {
@@ -9701,52 +7311,12 @@
       }
     },
     {
-      "id": "f-toyamacity~fuchucommunitybus",
-      "supersedes_ids": [
-        "f-富山市~婦中コミュニティバス"
-      ],
-      "name": "婦中コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyamacity/feeds/fuchucommunitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-toyamacity~fuchucommunitybus~rt",
       "name": "婦中コミュニティバス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/toyama-city-fuchu/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/toyama-city-fuchu/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-toyamacity~horikawaminamicommunitybus",
-      "supersedes_ids": [
-        "f-富山市~堀川南地域コミュニティバス"
-      ],
-      "name": "堀川南地域コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyamacity/feeds/horikawaminamicommunitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
       }
     },
     {
@@ -9785,52 +7355,12 @@
       }
     },
     {
-      "id": "f-toyamacity~kurehaikiikibus",
-      "supersedes_ids": [
-        "f-富山市~呉羽いきいきバス"
-      ],
-      "name": "呉羽いきいきバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyamacity/feeds/kurehaikiikibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-toyamacity~kurehaikiikibus~rt",
       "name": "呉羽いきいきバス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/toyama-city-kureha/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/toyama-city-kureha/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-toyamacity~maidohayabus",
-      "supersedes_ids": [
-        "f-富山市~まいどはやバス"
-      ],
-      "name": "まいどはやバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyamacity/feeds/maidohayabus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
       }
     },
     {
@@ -9843,52 +7373,12 @@
       }
     },
     {
-      "id": "f-toyamacity~oyamacommunitybus",
-      "supersedes_ids": [
-        "f-富山市~大山コミュニティバス"
-      ],
-      "name": "大山コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyamacity/feeds/oyamacommunitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-toyamacity~oyamacommunitybus~rt",
       "name": "大山コミュニティバス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/toyama-city-oyama/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/toyama-city-oyama/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-toyamacity~yamadacommunitybus",
-      "supersedes_ids": [
-        "f-富山市~山田コミュニティバス"
-      ],
-      "name": "山田コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyamacity/feeds/yamadacommunitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
       }
     },
     {
@@ -9901,52 +7391,12 @@
       }
     },
     {
-      "id": "f-toyamacity~yatsuocommunitybus",
-      "supersedes_ids": [
-        "f-富山市~八尾コミュニティバス"
-      ],
-      "name": "八尾コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyamacity/feeds/yatsuocommunitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-toyamacity~yatsuocommunitybus~rt",
       "name": "八尾コミュニティバス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs-rt-files.buscatch.jp/toyama/toyama-city-yatsuo/VehiclePositions.pb",
         "realtime_trip_updates": "https://gtfs-rt-files.buscatch.jp/toyama/toyama-city-yatsuo/TripUpdates.pb"
-      }
-    },
-    {
-      "id": "f-toyama~asahitown~asahimachibus",
-      "supersedes_ids": [
-        "f-朝日町~あさひまちバス"
-      ],
-      "name": "あさひまちバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyama-asahitown/feeds/asahimachibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
       }
     },
     {
@@ -9967,97 +7417,6 @@
       },
       "license": {
         "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
-      "id": "f-toyookacity~inacar",
-      "supersedes_ids": [
-        "f-豊岡市~市営バスイナカー"
-      ],
-      "name": "イナカー",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyookacity/feeds/inacar/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-toyookacity~kobus",
-      "supersedes_ids": [
-        "f-豊岡市~市街地循環バスコバス"
-      ],
-      "name": "コバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyookacity/feeds/kobus/files/feed.zip"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "28"
-      }
-    },
-    {
-      "id": "f-toyotacity~chiikibus",
-      "supersedes_ids": [
-        "f-豊田市~地域バス"
-      ],
-      "name": "豊田市　地域バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyotacity/feeds/chiikibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
-      "id": "f-toyotacity~kikanbus",
-      "supersedes_ids": [
-        "f-豊田市~とよたおいでんバス"
-      ],
-      "name": "とよたおいでんバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyotacity/feeds/kikanbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "23"
-      }
-    },
-    {
-      "id": "f-toyoyamatown~communitybus",
-      "supersedes_ids": [
-        "f-豊山町~とよやまタウンバス"
-      ],
-      "name": "とよやまタウンバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/toyoyamatown/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
         "create_derived_product": "yes",
         "redistribution_allowed": "yes",
         "commercial_use_allowed": "yes"
@@ -10103,27 +7462,6 @@
       }
     },
     {
-      "id": "f-tsuchiuracity~tsuchimarubus",
-      "supersedes_ids": [
-        "f-土浦市~つちまるバス"
-      ],
-      "name": "つちまるバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tsuchiuracity/feeds/tsuchimarubus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "8"
-      }
-    },
-    {
       "id": "f-tsuchiuracity~tsuchimarubus~rt",
       "name": "つちまるバス - Trip Updates + Vehicle Positions + Alerts",
       "spec": "gtfs-rt",
@@ -10131,27 +7469,6 @@
         "realtime_vehicle_positions": "https://realtime.gtfs.info/tsuchiura/vehicle.pb",
         "realtime_trip_updates": "https://realtime.gtfs.info/tsuchiura/trip_update.pb",
         "realtime_alerts": "https://realtime.gtfs.info/tsuchiura/alert.pb"
-      }
-    },
-    {
-      "id": "f-tsucity~communitybus",
-      "supersedes_ids": [
-        "f-津市コミュニティバス"
-      ],
-      "name": "津市コミュニティバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tsucity/feeds/communitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
       }
     },
     {
@@ -10170,90 +7487,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "2"
-      }
-    },
-    {
-      "id": "f-tsukubacity~tsukubanego",
-      "supersedes_ids": [
-        "f-つくば市~筑波地区支線型バスつくばね号~1"
-      ],
-      "name": "つくばね号",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tsukubacity/feeds/TSUKUBANEGO/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "8"
-      }
-    },
-    {
-      "id": "f-tsukubacity~tsukubus",
-      "supersedes_ids": [
-        "f-つくば市~つくバス"
-      ],
-      "name": "つくバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tsukubacity/feeds/TSUKUBUS/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "8"
-      }
-    },
-    {
-      "id": "f-tsurugitown~tsurugitownbus",
-      "supersedes_ids": [
-        "f-つるぎ町コミュニティーバス"
-      ],
-      "name": "つるぎ町コミュニティーバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tsurugitown/feeds/tsurugitownbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
-      }
-    },
-    {
-      "id": "f-tsuruokacity~tsuruokacity",
-      "supersedes_ids": [
-        "f-鶴岡市~羽黒地域市営バス朝日地域市営バス~1"
-      ],
-      "name": "鶴岡市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/tsuruokacity/feeds/TsuruokaCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
       }
     },
     {
@@ -10383,26 +7616,6 @@
       }
     },
     {
-      "id": "f-uozucity~junkai",
-      "supersedes_ids": [
-        "f-魚津市~魚津市民バス~1"
-      ],
-      "name": "魚津市民バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/uozucity/feeds/junkai/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC0-1.0",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "16"
-      }
-    },
-    {
       "id": "f-uozucity~junkai~rt",
       "name": "魚津市民バス - Trip Updates + Vehicle Positions",
       "spec": "gtfs-rt",
@@ -10427,27 +7640,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "11"
-      }
-    },
-    {
-      "id": "f-wataraitown~choeibus",
-      "supersedes_ids": [
-        "f-度会町~町営バス"
-      ],
-      "name": "度会町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/wataraitown/feeds/choeibus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "24"
       }
     },
     {
@@ -10505,111 +7697,6 @@
       }
     },
     {
-      "id": "f-yamagata~asahitown~asahitown",
-      "supersedes_ids": [
-        "f-朝日町路線バス"
-      ],
-      "name": "朝日町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/yamagata-asahitown/feeds/AsahiTown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-yamagata~kaneyamatown~kaneyamatown",
-      "supersedes_ids": [
-        "f-金山町町営バス"
-      ],
-      "name": "金山町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/yamagata-kaneyamatown/feeds/KaneyamaTown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-yamagata~ogunitown~ogunitown",
-      "supersedes_ids": [
-        "f-小国町営バス"
-      ],
-      "name": "小国町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/yamagata-ogunitown/feeds/OguniTown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-yamagata~yamagatacity~yamagatacity",
-      "supersedes_ids": [
-        "f-山形市~ベニちゃんバスコミュニティバス高瀬線地域交流バス南部線"
-      ],
-      "name": "山形市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/yamagata-yamagatacity/feeds/YamagataCity/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-yamakobus~yamakobus",
-      "supersedes_ids": [
-        "f-山交バス"
-      ],
-      "name": "山交バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/yamakobus/feeds/YAMAKOBUS/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
       "id": "f-yamanashi~hokutocity~hokuto~bus",
       "name": "北杜市民バス",
       "spec": "gtfs",
@@ -10643,27 +7730,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "19"
-      }
-    },
-    {
-      "id": "f-yamanobetown~yamanobetown",
-      "supersedes_ids": [
-        "f-山辺町~やまのべコミュニティバス"
-      ],
-      "name": "山辺町営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/yamanobetown/feeds/YamanobeTown/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
       }
     },
     {
@@ -10735,27 +7801,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "7"
-      }
-    },
-    {
-      "id": "f-yanbaru~expressbus~yanbaru~express~bus",
-      "supersedes_ids": [
-        "f-やんばる急行バス"
-      ],
-      "name": "やんばる急行バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/yanbaru-expressbus/feeds/yanbaru-express-bus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "47"
       }
     },
     {
@@ -10857,27 +7902,6 @@
       }
     },
     {
-      "id": "f-yokosukacity~hamachanbus",
-      "supersedes_ids": [
-        "f-横須賀市~ハマちゃんバス"
-      ],
-      "name": "ハマちゃんバス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/yokosukacity/feeds/hamachanbus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "14"
-      }
-    },
-    {
       "id": "f-yomogitavillage~yomogita~communitybus",
       "name": "蓬田村コミュニティバス",
       "spec": "gtfs",
@@ -10893,48 +7917,6 @@
       },
       "tags": {
         "gtfs_data_jp_prefecture_id": "2"
-      }
-    },
-    {
-      "id": "f-yonezawacity~yonezawa",
-      "supersedes_ids": [
-        "f-米沢市~市民バス"
-      ],
-      "name": "米沢市営バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/yonezawacity/feeds/Yonezawa/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "6"
-      }
-    },
-    {
-      "id": "f-yoshinogawacity~yoshinogawacitybus",
-      "supersedes_ids": [
-        "f-吉野川市代替バス"
-      ],
-      "name": "吉野川市代替バス",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://api.gtfs-data.jp/v2/organizations/yoshinogawacity/feeds/yoshinogawacitybus/files/feed.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "redistribution_allowed": "yes",
-        "commercial_use_allowed": "yes"
-      },
-      "tags": {
-        "gtfs_data_jp_prefecture_id": "36"
       }
     },
     {
@@ -11004,16 +7986,16 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-chitetsu~chitetsubus"
-        },
-        {
           "feed_onestop_id": "f-chitetsu~chitetsubus~rt"
         },
         {
-          "feed_onestop_id": "f-chitetsu~chitetsushinaidensha"
+          "feed_onestop_id": "f-chitetsu~chitetsushinaidensha~rt"
         },
         {
-          "feed_onestop_id": "f-chitetsu~chitetsushinaidensha~rt"
+          "feed_onestop_id": "f-富山地鉄バス富山地方鉄道"
+        },
+        {
+          "feed_onestop_id": "f-富山地鉄市内電車"
         }
       ]
     },
@@ -11029,10 +8011,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-imizucity~imizushi"
+          "feed_onestop_id": "f-imizucity~imizushi~rt"
         },
         {
-          "feed_onestop_id": "f-imizucity~imizushi~rt"
+          "feed_onestop_id": "f-射水市~きときとバス"
         }
       ]
     },
@@ -11048,10 +8030,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-isecity~communitybus"
+          "feed_onestop_id": "f-isecity~communitybus~rt"
         },
         {
-          "feed_onestop_id": "f-isecity~communitybus~rt"
+          "feed_onestop_id": "f-伊勢市コミュニティバスおかげバス沼木バス"
         }
       ]
     },
@@ -11067,22 +8049,22 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-kaetsunou~kaetsunouhimi"
-        },
-        {
           "feed_onestop_id": "f-kaetsunou~kaetsunouhimi~rt"
-        },
-        {
-          "feed_onestop_id": "f-kaetsunou~kaetsunouippan"
         },
         {
           "feed_onestop_id": "f-kaetsunou~kaetsunouippan~rt"
         },
         {
-          "feed_onestop_id": "f-kaetsunou~kaetsunousekaiisan"
+          "feed_onestop_id": "f-kaetsunou~kaetsunousekaiisan~rt"
         },
         {
-          "feed_onestop_id": "f-kaetsunou~kaetsunousekaiisan~rt"
+          "feed_onestop_id": "f-加能越バス~氷見市街地周遊バス"
+        },
+        {
+          "feed_onestop_id": "f-加越能バス~一般路線"
+        },
+        {
+          "feed_onestop_id": "f-加越能バス~世界遺産バス"
         }
       ]
     },
@@ -11098,10 +8080,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-kamiichitown~kamiichi"
+          "feed_onestop_id": "f-kamiichitown~kamiichi~rt"
         },
         {
-          "feed_onestop_id": "f-kamiichitown~kamiichi~rt"
+          "feed_onestop_id": "f-上市町~上市町営バス"
         }
       ]
     },
@@ -11117,10 +8099,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-keisei~transitbus~keiseitransitbus"
+          "feed_onestop_id": "f-keisei~transitbus~keiseitransitbus~rt"
         },
         {
-          "feed_onestop_id": "f-keisei~transitbus~keiseitransitbus~rt"
+          "feed_onestop_id": "f-京成トランジットバス"
         }
       ]
     },
@@ -11250,10 +8232,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-manyosen~manyosen"
+          "feed_onestop_id": "f-manyosen~manyosen~rt"
         },
         {
-          "feed_onestop_id": "f-manyosen~manyosen~rt"
+          "feed_onestop_id": "f-万葉線"
         }
       ]
     },
@@ -11318,10 +8300,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-nagai~unyu~nagaibus"
+          "feed_onestop_id": "f-nagai~unyu~nagaibus~rt"
         },
         {
-          "feed_onestop_id": "f-nagai~unyu~nagaibus~rt"
+          "feed_onestop_id": "f-永井バス永井運輸~3"
         }
       ]
     },
@@ -11337,10 +8319,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-namerikawacity~norumycar"
+          "feed_onestop_id": "f-namerikawacity~norumycar~rt"
         },
         {
-          "feed_onestop_id": "f-namerikawacity~norumycar~rt"
+          "feed_onestop_id": "f-滑川市~のる~my~car~1"
         }
       ]
     },
@@ -11356,10 +8338,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-nantocity~nanbus"
+          "feed_onestop_id": "f-nantocity~nanbus~rt"
         },
         {
-          "feed_onestop_id": "f-nantocity~nanbus~rt"
+          "feed_onestop_id": "f-南砺市~なんバス南砺市営バス~1"
         }
       ]
     },
@@ -11375,10 +8357,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-nyuzentown~noranmaicar"
+          "feed_onestop_id": "f-nyuzentown~noranmaicar~rt"
         },
         {
-          "feed_onestop_id": "f-nyuzentown~noranmaicar~rt"
+          "feed_onestop_id": "f-入善町~入善町営バスのらんマイ~カー"
         }
       ]
     },
@@ -11413,10 +8395,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-oyabecity~oyabecitybus"
+          "feed_onestop_id": "f-oyabecity~oyabecitybus~rt"
         },
         {
-          "feed_onestop_id": "f-oyabecity~oyabecitybus~rt"
+          "feed_onestop_id": "f-小矢部市~小矢部市営バスメルバス~乗合タクシー~1"
         }
       ]
     },
@@ -11451,10 +8433,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-takaokacity~koueibus"
+          "feed_onestop_id": "f-takaokacity~koueibus~rt"
         },
         {
-          "feed_onestop_id": "f-takaokacity~koueibus~rt"
+          "feed_onestop_id": "f-高岡市~高岡市公営バス福岡地域"
         }
       ]
     },
@@ -11489,10 +8471,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-tateyamatown~tateyama"
+          "feed_onestop_id": "f-tateyamatown~tateyama~rt"
         },
         {
-          "feed_onestop_id": "f-tateyamatown~tateyama~rt"
+          "feed_onestop_id": "f-立山町~立山町営バス"
         }
       ]
     },
@@ -11527,10 +8509,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-tonamicity~tonamishieibasu"
+          "feed_onestop_id": "f-tonamicity~tonamishieibasu~rt"
         },
         {
-          "feed_onestop_id": "f-tonamicity~tonamishieibasu~rt"
+          "feed_onestop_id": "f-砺波市~砺波市営バス~1"
         }
       ]
     },
@@ -11546,13 +8528,7 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-toyamacity~fuchucommunitybus"
-        },
-        {
           "feed_onestop_id": "f-toyamacity~fuchucommunitybus~rt"
-        },
-        {
-          "feed_onestop_id": "f-toyamacity~horikawaminamicommunitybus"
         },
         {
           "feed_onestop_id": "f-toyamacity~horikawaminamicommunitybus~rt"
@@ -11564,34 +8540,40 @@
           "feed_onestop_id": "f-toyamacity~jojocommunitybus~rt"
         },
         {
-          "feed_onestop_id": "f-toyamacity~kurehaikiikibus"
-        },
-        {
           "feed_onestop_id": "f-toyamacity~kurehaikiikibus~rt"
-        },
-        {
-          "feed_onestop_id": "f-toyamacity~maidohayabus"
         },
         {
           "feed_onestop_id": "f-toyamacity~maidohayabus~rt"
         },
         {
-          "feed_onestop_id": "f-toyamacity~oyamacommunitybus"
-        },
-        {
           "feed_onestop_id": "f-toyamacity~oyamacommunitybus~rt"
-        },
-        {
-          "feed_onestop_id": "f-toyamacity~yamadacommunitybus"
         },
         {
           "feed_onestop_id": "f-toyamacity~yamadacommunitybus~rt"
         },
         {
-          "feed_onestop_id": "f-toyamacity~yatsuocommunitybus"
+          "feed_onestop_id": "f-toyamacity~yatsuocommunitybus~rt"
         },
         {
-          "feed_onestop_id": "f-toyamacity~yatsuocommunitybus~rt"
+          "feed_onestop_id": "f-富山市~まいどはやバス"
+        },
+        {
+          "feed_onestop_id": "f-富山市~八尾コミュニティバス"
+        },
+        {
+          "feed_onestop_id": "f-富山市~呉羽いきいきバス"
+        },
+        {
+          "feed_onestop_id": "f-富山市~堀川南地域コミュニティバス"
+        },
+        {
+          "feed_onestop_id": "f-富山市~大山コミュニティバス"
+        },
+        {
+          "feed_onestop_id": "f-富山市~婦中コミュニティバス"
+        },
+        {
+          "feed_onestop_id": "f-富山市~山田コミュニティバス"
         }
       ]
     },
@@ -11607,10 +8589,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-toyama~asahitown~asahimachibus"
+          "feed_onestop_id": "f-toyama~asahitown~asahimachibus~rt"
         },
         {
-          "feed_onestop_id": "f-toyama~asahitown~asahimachibus~rt"
+          "feed_onestop_id": "f-朝日町~あさひまちバス"
         }
       ]
     },
@@ -11626,10 +8608,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-tsuchiuracity~tsuchimarubus"
+          "feed_onestop_id": "f-tsuchiuracity~tsuchimarubus~rt"
         },
         {
-          "feed_onestop_id": "f-tsuchiuracity~tsuchimarubus~rt"
+          "feed_onestop_id": "f-土浦市~つちまるバス"
         }
       ]
     },
@@ -11645,10 +8627,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-uozucity~junkai"
+          "feed_onestop_id": "f-uozucity~junkai~rt"
         },
         {
-          "feed_onestop_id": "f-uozucity~junkai~rt"
+          "feed_onestop_id": "f-魚津市~魚津市民バス~1"
         }
       ]
     },
@@ -11664,10 +8646,10 @@
       },
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-yanbaru~expressbus~yanbaru~express~bus"
+          "feed_onestop_id": "f-yanbaru~expressbus~yanbaru~express~bus~rt"
         },
         {
-          "feed_onestop_id": "f-yanbaru~expressbus~yanbaru~express~bus~rt"
+          "feed_onestop_id": "f-やんばる急行バス"
         }
       ]
     }
