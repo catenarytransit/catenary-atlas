@@ -1,0 +1,28 @@
+name: Validate Japan GTFS catalog
+
+on:
+  pull_request:
+    paths:
+      - "feeds/gtfs-data-jp.dmfr.json"
+      - "scripts/sync-gtfs-data-jp.py"
+      - "scripts/test-sync-gtfs-data-jp.py"
+      - ".github/workflows/check-japan-gtfs.yml"
+  push:
+    branches: [main]
+    paths:
+      - "feeds/gtfs-data-jp.dmfr.json"
+      - "scripts/sync-gtfs-data-jp.py"
+      - "scripts/test-sync-gtfs-data-jp.py"
+
+jobs:
+  japan-registry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test reconciliation and collision handling
+        run: python scripts/test-sync-gtfs-data-jp.py
+      - name: Check identities, URLs, and feed associations against the entire atlas
+        run: python scripts/sync-gtfs-data-jp.py --validate-only
