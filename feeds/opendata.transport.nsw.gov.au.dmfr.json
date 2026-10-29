@@ -2,19 +2,41 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
-      "id": "f-r6-nsw~alerts~rt",
-      "spec": "gtfs-rt",
+      "id": "f-nsw2~buses",
+      "spec": "gtfs",
       "urls": {
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/all"
-      }
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/buses"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~buses",
+          "name": "Sydney Playground Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~buses~rt"
+            }
+          ]
+        }
+      ]
     },
     {
-      "id": "f-nsw~buses~rt",
+      "id": "f-nsw2~buses~rt",
       "spec": "gtfs-rt",
       "urls": {
+        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/buses",
         "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/buses",
-        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/buses",
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/buses"
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/buses"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -29,11 +51,1125 @@
       }
     },
     {
-      "id": "f-nsw~ferries~rt",
+      "id": "f-nsw2~ferries~sydneyferries",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/ferries/sydneyferries"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~ferries",
+          "name": "Sydney Playground Ferries",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~ferries~sydneyferries~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~ferries~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~ferries~sydneyferries~rt",
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/ferries/sydneyferries",
-        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/ferries/sydneyferries",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/ferries/sydneyferries"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~ferries~MFF",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/ferries/MFF"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~ferries",
+          "name": "Sydney Playground Ferries",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~ferries~MFF~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~ferries~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~ferries~MFF~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/ferries/MFF",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/ferries/MFF"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~lightrail~innerwest",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/lightrail/innerwest"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~lightrail",
+          "name": "Sydney Playground Light Rail",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~lightrail~innerwest~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~lightrail~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~lightrail~innerwest~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/lightrail/innerwest",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/lightrail/innerwest"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~lightrail~newcastle",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/lightrail/newcastle"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~lightrail",
+          "name": "Sydney Playground Light Rail",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~lightrail~newcastle~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~lightrail~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~lightrail~newcastle~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/lightrail/newcastle",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail/newcastle"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~lightrail~cbdandsoutheast",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/lightrail/cbdandsoutheast"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~lightrail",
+          "name": "Sydney Playground Light Rail",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~lightrail~cbdandsoutheast~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~lightrail~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~lightrail~cbdandsoutheast~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/lightrail/cbdandsoutheast",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail/cbdandsoutheast"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~lightrail~parramatta",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/lightrail/parramatta"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~lightrail",
+          "name": "Sydney Playground Light Rail",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~lightrail~parramatta~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~lightrail~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~lightrail~parramatta~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/lightrail/parramatta",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail/parramatta"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~nswtrains",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/nswtrains"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~nswtrains",
+          "name": "Playground NSW Trains",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~nswtrains~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~nswtrains~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/nswtrains",
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/nswtrains",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/nswtrains"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~sydneytrains",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/sydneytrains"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~sydneytrains",
+          "name": "Sydney Playground Trains",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~sydneytrains~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~sydneytrains~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/sydneytrains",
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/sydneytrains",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/sydneytrains"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~metro",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v2/gtfs/schedule/metro"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~metro",
+          "name": "Sydney Playground Metro",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~metro~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~metro~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/metro",
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/metro",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/metro"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~southeasttablelands",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/southeasttablelands"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~southeasttablelands~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~southeasttablelands~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/southeasttablelands",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/southeasttablelands"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~southeasttablelands2",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/southeasttablelands2"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~southeasttablelands2~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~southeasttablelands2~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/southeasttablelands2",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/southeasttablelands2"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~northcoast",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/northcoast"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~northcoast~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~northcoast~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/northcoast",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/northcoast"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~northcoast2",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/northcoast2"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~northcoast2~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~northcoast2~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/northcoast2",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/northcoast2"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~centralwestandorana",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/centralwestandorana"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~centralwestandorana~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~centralwestandorana~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/centralwestandorana",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/centralwestandorana"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~centralwestandorana2",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/centralwestandorana2"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~centralwestandorana2~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~centralwestandorana2~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/centralwestandorana2",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/centralwestandorana2"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~riverinamurray",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/riverinamurray"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~riverinamurray~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~riverinamurray~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/riverinamurray",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/riverinamurray"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~newenglandnorthwest",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/newenglandnorthwest"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~newenglandnorthwest~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~newenglandnorthwest~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/newenglandnorthwest",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/newenglandnorthwest"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~riverinamurray2",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/riverinamurray2"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~riverinamurray2~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~riverinamurray2~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/riverinamurray2",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/riverinamurray2"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~northcoast3",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/northcoast3"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~northcoast3~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~northcoast3~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/northcoast3",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/northcoast3"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~sydneysurrounds",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/sydneysurrounds"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~sydneysurrounds~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~sydneysurrounds~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/sydneysurrounds",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/sydneysurrounds"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~newcastlehunter",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/newcastlehunter"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~newcastlehunter~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~newcastlehunter~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/newcastlehunter",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/newcastlehunter"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~regionbuses~farwest",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://api.transport.nsw.gov.au/v1/gtfs/schedule/regionbuses/farwest"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-nsw2~regionbuses",
+          "name": "Playground Regional Buses",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~farwest~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-nsw2~regionbuses~farwest~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/farwest",
+        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/farwest"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
+      "id": "f-nsw2~ferries~rt",
+      "spec": "gtfs-rt",
+      "urls": {
         "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/ferries"
       },
       "license": {
@@ -49,25 +1185,9 @@
       }
     },
     {
-      "id": "f-nsw~flex",
-      "name": "Transport for NSW On Demand (GTFS-Flex)",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://opendata.transport.nsw.gov.au/data/dataset/a5ecd906-ce73-484c-8cea-fa6fecfe368e/resource/e25092cc-67a1-469c-b57a-20793c259486/download/ondemand_gtfsflex.zip"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "attribution_text": "Transport for NSW"
-      }
-    },
-    {
-      "id": "f-nsw~lightrail~rt",
+      "id": "f-nsw2~lightrail~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/lightrail/innerwest",
-        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/lightrail/innerwest",
         "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/lightrail"
       },
       "license": {
@@ -83,12 +1203,10 @@
       }
     },
     {
-      "id": "f-nsw~metro~rt",
+      "id": "f-nsw2~regionbuses~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/metro",
-        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/metro",
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/metro"
+        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/regionbuses"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
@@ -101,1480 +1219,6 @@
         "param_name": "Authorization",
         "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
       }
-    },
-    {
-      "id": "f-nsw~nswtrains~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/nswtrains",
-        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/nswtrains",
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/nswtrains"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "attribution_text": "Transport for NSW"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "Authorization",
-        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
-      }
-    },
-    {
-      "id": "f-nsw~trains~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/sydneytrains",
-        "realtime_trip_updates": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/sydneytrains",
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/sydneytrains"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "attribution_text": "Transport for NSW"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "Authorization",
-        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
-      }
-    },
-    {
-      "id": "f-r6-nswtrainlink~sydneytrains~buswayswesternsydney~interlinebus",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://opendata.transport.nsw.gov.au/dataset/d1f68d4f-b778-44df-9823-cf2fa922e47f/resource/67974f14-01bf-47b7-bfa5-c7f2f8a950ca/download/full_greater_sydney_gtfs_static_0.zip",
-        "static_historic": [
-          "https://api.transport.nsw.gov.au/v1/publictransport/timetables/complete/gtfs",
-          "https://opendata.transport.nsw.gov.au/sites/default/files/resources/full_greater_sydney_gtfs_static_0.zip"
-        ]
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "attribution_text": "Transport for NSW"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-r1v-cdcmilduraptyltd",
-          "name": "CDC Mildura Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5863"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1v-mooresbuslinesptyltd",
-          "name": "Moore's Bus Lines Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5203"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1vc-hoareleanne",
-          "name": "Hoare, Leanne",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5421"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1ve-bulzomibrosptyltd",
-          "name": "Bulzomi Bros Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5701"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1vj-cdcvictoria",
-          "name": "CDC Mildura Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5979"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1w-busbiz",
-          "name": "BusBiz",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5800"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1w-dysonsbuslines",
-          "name": "Dysons Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5452"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1w-lakebrothers",
-          "name": "Lake Brothers",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5705"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1wft-jamesnewtonsbusserviceptyltd",
-          "name": "James Newtons Bus Service Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5840"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1wg-dysonsbuslines",
-          "name": "Dysons Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5453"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1x-cannsbusmanagement",
-          "name": "Cann's Bus Management",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5139"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1x-dysonsbuslines",
-          "name": "Dysons Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5900"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1xg-woodsbuslines",
-          "name": "Woods Bus Lines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5205"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1xj-dysonsbuslines",
-          "name": "Dysons Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5472"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1xs-baldwinsbuses",
-          "name": "Baldwin's Buses",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5655"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1xu-fallonsbusserviceptyltd",
-          "name": "Fallon's Bus Service Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5486"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1xw-colombocreekbusservice",
-          "name": "Colombo Creek Bus Service",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5119"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1xw-dysonsbuslines",
-          "name": "Dysons Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5901"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1y2-wb~akdaviesptyltd",
-          "name": "WB & AK Davies Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5656"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1z-c~jrobertsonptyltd",
-          "name": "C & J Robertson Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5689"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1z-miacoaches",
-          "name": "MIA Coaches",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5860"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1zu-griffithbuslines",
-          "name": "Griffith Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "6002"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r1zx-ianrosscontractingptyltd",
-          "name": "Ian Ross Contracting Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5502"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r36-sapphirecoastbuslines",
-          "name": "Sapphire Coast Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5791"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r36j-tj~falomas",
-          "name": "TJ & FA Lomas",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5458"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r36nh-tj~falomas",
-          "name": "TJ & FA Lomas",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5327"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r36q-scarlettbuses",
-          "name": "Scarlett Buses",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5460"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r36x-beresfordbuses",
-          "name": "Beresford Buses",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5329"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r36x-v~hmotorrepairs",
-          "name": "V & H Motor Repairs",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5348"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38-cannsbusmanagement",
-          "name": "Cann's Bus Management",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5703"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38-kanesbuses",
-          "name": "Kanes Buses",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5485"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38-lieschkebuslines",
-          "name": "Lieschke Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5456"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38-martinsalbury",
-          "name": "Martins Albury",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "6012"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r386-dysonsbuslines",
-          "name": "Dysons Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "6040"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r387-cannsbusmanagement",
-          "name": "Cann's Bus Management",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5974"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r387-lieschkebuslines",
-          "name": "Lieschke Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5455"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r387-martinsalbury",
-          "name": "Martins Albury",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5263"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r387-salzkespurrbuslines",
-          "name": "Salzke Spurr Bus Lines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5192"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38e-bookabus",
-          "name": "Bookabus",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5166"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38e-martinsalbury",
-          "name": "Martins Albury",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5520"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38k-martinsalbury",
-          "name": "Martins Albury",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5179"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38m-lieschkebuslines",
-          "name": "Lieschke Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5189"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38m-nandklieschkeptyltd",
-          "name": "N and K Lieschke Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5403"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38q-clc~coptyltd",
-          "name": "CLC & Co Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5185"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38r-cannsbusmanagement",
-          "name": "Cann's Bus Management",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5243"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38r-ejpbusesptyltd",
-          "name": "EJP Buses Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5131"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38s-nr~ljhibberson",
-          "name": "NR & LJ Hibberson",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5664"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38u-lieschkebuslines",
-          "name": "Lieschke Buslines",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5142"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38u-papworthsbusserviceptyltd",
-          "name": "Papworth's Bus Service Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5685"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38v-tj~tmshea",
-          "name": "TJ & TM Shea",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5801"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r38wc-r~sgeddes",
-          "name": "R & S Geddes",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5188"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39-appletransportservicesptyltd",
-          "name": "Apple Transport Services Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5661"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39-coomacoaches",
-          "name": "Cooma Coaches",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5426"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39-goodescoachesptyltd",
-          "name": "Goode's Coaches Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5130"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39-snowlinercoaches",
-          "name": "Snowliner Coaches",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5678"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r396-oconnellscoaches",
-          "name": "O'Connell's Coaches",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5484"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r398-coomacoaches",
-          "name": "Cooma Coaches",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5748"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r399-alpinecharters",
-          "name": "Alpine Charters",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5675"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39b-whitemichelle",
-          "name": "White, Michelle",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5201"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39c-portstephenscoaches",
-          "name": "Port Stephens Coaches",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5173"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39g-adaminabybuses",
-          "name": "Adaminaby Buses",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5148"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39k-hannonpauline",
-          "name": "Hannon, Pauline",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5247"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39k-tjhussell",
-          "name": "T J Hussell",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5346"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39n-il~cmkennedy",
-          "name": "IL & CM Kennedy",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5242"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39p4-sl~slhardwick",
-          "name": "SL & SL Hardwick",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5195"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39q-worrickjohnshawptyltd",
-          "name": "Worrick John Shaw Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5244"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39qc-hassettbusesptyltd",
-          "name": "Hassett Buses Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5136"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r39r-hassettbusesptyltd",
-          "name": "Hassett Buses Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5118"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b-allenscoaches",
-          "name": "Allen's Coaches",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5490"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b-busaboutwagga",
-          "name": "Busabout Wagga",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "6014"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b-chostillptyltd",
-          "name": "Chostill Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5246"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b1-gd~dkbockptyltd",
-          "name": "GD & DK Bock Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5117"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b3-j~mdaviesptyltd",
-          "name": "J & M Davies Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5184"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b5-celisbusservice",
-          "name": "Celis Bus Service",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5441"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b5-cromptonsbusservice",
-          "name": "Crompton's Bus Service",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5444"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b5-miacoaches",
-          "name": "MIA Coaches",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5646"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b56-allendaniel",
-          "name": "Allen, Daniel",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5161"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b57-lyonsbusservice",
-          "name": "Lyons Bus Service",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5481"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b6-jc~tksteele",
-          "name": "JC & TK Steele",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5501"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b6-mahoneyscoachesptyltd",
-          "name": "Mahoney's Coaches Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5700"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b6-narranderacrc",
-          "name": "Narrandera CRC",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5445"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3b9-dr~mtmilneptyltd",
-          "name": "DR & MT Milne Pty Ltd",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5380"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3bb0-sanisidorebuses",
-          "name": "San Isidore Buses",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5310"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3bc-juneebuses",
-          "name": "Junee Buses",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5674"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3bc-lareardon~sareardon",
-          "name": "LA Reardon & SA Reardon",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "5143"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3g-busways",
-          "supersedes_ids": [
-            "o-r3g-buswaysr1",
-            "o-r3g-buswaysnorthwest",
-            "o-r3g-buswaysomr6"
-          ],
-          "name": "Busways",
-          "website": "https://www.busways.com.au/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "2501"
-            },
-            {
-              "gtfs_agency_id": "2507"
-            },
-            {
-              "gtfs_agency_id": "2606"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q5002227"
-          }
-        },
-        {
-          "onestop_id": "o-r3g-cdcnsw",
-          "supersedes_ids": [
-            "o-r3g-cdcnswr14",
-            "o-r3g-cdcnswr4",
-            "o-r3g-redbuscdcnsw",
-            "o-r3g-cdcbrokenhillptyltd"
-          ],
-          "name": "CDC NSW",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "2514"
-            },
-            {
-              "gtfs_agency_id": "2504"
-            },
-            {
-              "gtfs_agency_id": "2607"
-            },
-            {
-              "gtfs_agency_id": "5405"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q115802322"
-          }
-        },
-        {
-          "onestop_id": "o-r3g-intercitytrain",
-          "name": "Intercity Train",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "X000"
-            },
-            {
-              "feed_onestop_id": "f-nsw~nswtrains~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3g-keolisdownernorthernbeaches",
-          "name": "Keolis Downer Northern Beaches",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "2508"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q107410349"
-          }
-        },
-        {
-          "onestop_id": "o-r3g-nswtrainlink",
-          "name": "NSW TrainLink",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "X0000"
-            },
-            {
-              "feed_onestop_id": "f-nsw~nswtrains~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q6955406"
-          }
-        },
-        {
-          "onestop_id": "o-r3g-nswtrainlink711",
-          "name": "NSW TrainLink",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "711"
-            },
-            {
-              "feed_onestop_id": "f-nsw~nswtrains~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3g-premierillawarra",
-          "name": "Premier Illawarra",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "2456"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q15712815"
-          }
-        },
-        {
-          "onestop_id": "o-r3g-statetransitsydney",
-          "name": "Transport for New South Wales",
-          "short_name": "TfNSW",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "2441"
-            },
-            {
-              "gtfs_agency_id": "2438"
-            },
-            {
-              "gtfs_agency_id": "2440"
-            },
-            {
-              "gtfs_agency_id": "2439"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q7834923"
-          }
-        },
-        {
-          "onestop_id": "o-r3g-sydneytrains",
-          "name": "Sydney Trains",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "x0001"
-            },
-            {
-              "feed_onestop_id": "f-nsw~trains~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q7660181"
-          }
-        },
-        {
-          "onestop_id": "o-r3g-transdevjohnholland",
-          "name": "Transdev John Holland",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "2509"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-r3g-transitsystemssydney",
-          "supersedes_ids": [
-            "o-r3g-transitsystems",
-            "o-r3g-transitsystemsnsw",
-            "o-r3g-transitsystemsnswsw"
-          ],
-          "name": "Transit Systems Sydney",
-          "website": "http://www.transitsystems.com.au/sydney",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "2459"
-            },
-            {
-              "gtfs_agency_id": "2502"
-            },
-            {
-              "gtfs_agency_id": "2503"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q16927509"
-          }
-        },
-        {
-          "onestop_id": "o-r3g-ugomobility",
-          "name": "U-Go Mobility",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "2510"
-            },
-            {
-              "feed_onestop_id": "f-nsw~buses~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q116044439"
-          }
-        },
-        {
-          "onestop_id": "o-r3grs-parramattalightrail",
-          "name": "Parramatta Light Rail",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "PLR"
-            },
-            {
-              "feed_onestop_id": "f-nsw~lightrail~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q22271918"
-          }
-        },
-        {
-          "onestop_id": "o-r3gx-sydneyferries",
-          "name": "Sydney Ferries",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "SF"
-            },
-            {
-              "feed_onestop_id": "f-nsw~ferries~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q3162795"
-          }
-        },
-        {
-          "onestop_id": "o-r3gx2-sydneylightrail",
-          "name": "Sydney Lightrail",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "LR"
-            },
-            {
-              "feed_onestop_id": "f-nsw~lightrail~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q771666"
-          }
-        },
-        {
-          "onestop_id": "o-r3gx3-manlyfastferry",
-          "name": "Manly Fast Ferries",
-          "website": "https://www.myfastferry.com.au/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "MFF"
-            },
-            {
-              "feed_onestop_id": "f-nsw~ferries~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q135013491"
-          }
-        },
-        {
-          "onestop_id": "o-r652-sydneymetro",
-          "name": "Sydney Metro",
-          "website": "http://transportnsw.info",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "SMNW"
-            },
-            {
-              "feed_onestop_id": "f-nsw~metro~rt"
-            }
-          ],
-          "tags": {
-            "wikidata_id": "Q14774571"
-          }
-        }
-      ]
     }
   ]
 }
