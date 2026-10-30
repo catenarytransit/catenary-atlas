@@ -5,10 +5,20 @@
       "id": "f-pune~pmpml",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/croyla/pmpml-gtfs/raw/main/pmpml_gtfs_compat.zip"
+        "static_current": "https://rt-bucket.blrtransit.com/rt/control/static/gtfs.zip",
+        "static_historic": [
+          "https://github.com/croyla/pmpml-gtfs/raw/main/pmpml_gtfs_compat.zip"
+        ]
       },
       "license": {
         "url": "https://github.com/croyla/pmpml-gtfs"
+      }
+    },
+    {
+      "id": "f-pune~pmpml~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://rt-bucket.blrtransit.com/rt/feed/rt.pb"
       }
     },
     {
@@ -25,10 +35,20 @@
       "id": "f-ahmedabad~croyla",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/croyla/amd-gtfs/raw/main/gtfs_compat.zip"
+        "static_current": "https://rt-bucket.blrtransit.com/rt-amd/control/static/gtfs.zip",
+        "static_historic": [
+          "https://github.com/croyla/amd-gtfs/raw/main/gtfs_compat.zip"
+        ]
       },
       "license": {
         "url": "https://github.com/croyla/amd-gtfs"
+      }
+    },
+    {
+      "id": "f-ahmedabad~croyla~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://rt-bucket.blrtransit.com/rt-amd/feed/rt.pb"
       }
     },
     {
@@ -60,6 +80,9 @@
         {
           "gtfs_agency_id": "PMPML",
           "feed_onestop_id": "f-pune~pmpml"
+        },
+        {
+          "feed_onestop_id": "f-pune~pmpml~rt"
         }
       ]
     },
@@ -100,6 +123,9 @@
         {
           "gtfs_agency_id": "AMTS",
           "feed_onestop_id": "f-ahmedabad~croyla"
+        },
+        {
+          "feed_onestop_id": "f-ahmedabad~croyla~rt"
         }
       ]
     },
@@ -110,6 +136,9 @@
         {
           "gtfs_agency_id": "AJL",
           "feed_onestop_id": "f-ahmedabad~croyla"
+        },
+        {
+          "feed_onestop_id": "f-ahmedabad~croyla~rt"
         }
       ]
     },
