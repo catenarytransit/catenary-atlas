@@ -5,20 +5,30 @@
       "id": "f-chennai~mtc",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/ungalsoththu/ChennaiGTFS/raw/main/data/mtc-gtfs.zip"
+        "static_current": "https://github.com/reclaimchennai/ChennaiGTFS/raw/chennai-one-feeds/data/chennai-one-mtc-gtfs.zip"
       },
-      "license": {
-        "url": "https://github.com/ungalsoththu/ChennaiGTFS"
+      "tags": {
+        "documentation_url": "https://github.com/reclaimchennai/ChennaiGTFS/tree/chennai-one-feeds/data/chennai-one"
       }
     },
     {
       "id": "f-chennai~cmrl",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/ungalsoththu/ChennaiGTFS/raw/main/data/cmrl-gtfs.zip"
+        "static_current": "https://github.com/reclaimchennai/ChennaiGTFS/raw/chennai-one-feeds/data/chennai-one-cmrl-gtfs.zip"
       },
-      "license": {
-        "url": "https://github.com/ungalsoththu/ChennaiGTFS"
+      "tags": {
+        "documentation_url": "https://github.com/reclaimchennai/ChennaiGTFS/tree/chennai-one-feeds/data/chennai-one"
+      }
+    },
+    {
+      "id": "f-chennai~suburban~railway",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/reclaimchennai/ChennaiGTFS/raw/chennai-one-feeds/data/chennai-one-suburban-gtfs.zip"
+      },
+      "tags": {
+        "documentation_url": "https://github.com/reclaimchennai/ChennaiGTFS/tree/chennai-one-feeds/data/chennai-one"
       }
     }
   ],
@@ -28,7 +38,7 @@
       "name": "MTC",
       "associated_feeds": [
         {
-          "gtfs_agency_id": "69",
+          "gtfs_agency_id": "MTC",
           "feed_onestop_id": "f-chennai~mtc"
         }
       ]
@@ -40,6 +50,16 @@
         {
           "gtfs_agency_id": "CMRL",
           "feed_onestop_id": "f-chennai~cmrl"
+        }
+      ]
+    },
+    {
+      "onestop_id": "o-chennai~sr",
+      "name": "Southern Railway",
+      "associated_feeds": [
+        {
+          "gtfs_agency_id": "SR",
+          "feed_onestop_id": "f-chennai~suburban~railway"
         }
       ]
     }
