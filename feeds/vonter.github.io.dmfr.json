@@ -5,10 +5,20 @@
       "id": "f-bengaluru~bmtc",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://github.com/Vonter/bmtc-gtfs/raw/main/gtfs/bmtc.zip"
+        "static_current": "https://gtfs.bengawalk.com/rt/control/static/gtfs.zip",
+        "static_historic": [
+          "https://github.com/Vonter/bmtc-gtfs/raw/main/gtfs/bmtc.zip"
+        ]
       },
       "license": {
         "url": "https://github.com/Vonter/bmtc-gtfs"
+      }
+    },
+    {
+      "id": "f-bengaluru~bmtc~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://gtfs.bengawalk.com/rt/feed/rt.pb"
       }
     }
   ],
@@ -20,6 +30,9 @@
         {
           "gtfs_agency_id": "1",
           "feed_onestop_id": "f-bengaluru~bmtc"
+        },
+        {
+          "feed_onestop_id": "f-bengaluru~bmtc~rt"
         }
       ]
     }
