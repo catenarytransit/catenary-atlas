@@ -10,8 +10,8 @@
           "https://github.com/Vonter/bmtc-gtfs/raw/main/gtfs/bmtc.zip"
         ]
       },
-      "license": {
-        "url": "https://github.com/Vonter/bmtc-gtfs"
+      "tags": {
+        "documentation_url": "https://github.com/Vonter/bmtc-gtfs"
       }
     },
     {
@@ -19,6 +19,17 @@
       "spec": "gtfs-rt",
       "urls": {
         "realtime_vehicle_positions": "https://gtfs.bengawalk.com/rt/feed/rt.pb"
+      }
+    },
+    {
+      "id": "f-bengaluru~bmrcl",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://raw.githubusercontent.com/Vonter/bmrcl-gtfs/main/gtfs/bmrcl.zip"
+      },
+      "tags": {
+        "documentation_url": "https://github.com/Vonter/bmrcl-gtfs",
+        "notes": "Interstation timings are not known, so they were estimated"
       }
     }
   ],
