@@ -2,6 +2,24 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
+      "id": "f-nsw2~alerts~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/all"
+      },
+      "license": {
+        "spdx_identifier": "CC-BY-4.0",
+        "use_without_attribution": "no",
+        "create_derived_product": "yes",
+        "attribution_text": "Transport for NSW"
+      },
+      "authorization": {
+        "type": "header",
+        "param_name": "Authorization",
+        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
+      }
+    },
+    {
       "id": "f-nsw2~buses",
       "spec": "gtfs",
       "urls": {
@@ -25,6 +43,9 @@
           "associated_feeds": [
             {
               "feed_onestop_id": "f-nsw2~buses~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -34,7 +55,6 @@
       "id": "f-nsw2~buses~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/buses",
         "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/buses",
         "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/buses"
       },
@@ -77,6 +97,9 @@
             },
             {
               "feed_onestop_id": "f-nsw2~ferries~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -128,6 +151,9 @@
             },
             {
               "feed_onestop_id": "f-nsw2~ferries~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -178,7 +204,7 @@
               "feed_onestop_id": "f-nsw2~lightrail~innerwest~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~lightrail~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -229,7 +255,7 @@
               "feed_onestop_id": "f-nsw2~lightrail~newcastle~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~lightrail~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -280,7 +306,7 @@
               "feed_onestop_id": "f-nsw2~lightrail~cbdandsoutheast~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~lightrail~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -331,7 +357,7 @@
               "feed_onestop_id": "f-nsw2~lightrail~parramatta~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~lightrail~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -380,6 +406,9 @@
           "associated_feeds": [
             {
               "feed_onestop_id": "f-nsw2~nswtrains~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -389,7 +418,6 @@
       "id": "f-nsw2~nswtrains~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/nswtrains",
         "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/nswtrains",
         "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/nswtrains"
       },
@@ -429,6 +457,9 @@
           "associated_feeds": [
             {
               "feed_onestop_id": "f-nsw2~sydneytrains~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -438,7 +469,6 @@
       "id": "f-nsw2~sydneytrains~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/sydneytrains",
         "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/sydneytrains",
         "realtime_trip_updates": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/sydneytrains"
       },
@@ -478,6 +508,9 @@
           "associated_feeds": [
             {
               "feed_onestop_id": "f-nsw2~metro~rt"
+            },
+            {
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -487,7 +520,6 @@
       "id": "f-nsw2~metro~rt",
       "spec": "gtfs-rt",
       "urls": {
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/metro",
         "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v2/gtfs/vehiclepos/metro",
         "realtime_trip_updates": "https://api.transport.nsw.gov.au/v2/gtfs/realtime/metro"
       },
@@ -529,7 +561,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~southeasttablelands~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -580,7 +612,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~southeasttablelands2~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -631,7 +663,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~northcoast~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -682,7 +714,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~northcoast2~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -733,7 +765,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~centralwestandorana~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -784,7 +816,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~centralwestandorana2~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -835,7 +867,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~riverinamurray~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -886,7 +918,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~newenglandnorthwest~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -937,7 +969,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~riverinamurray2~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -988,7 +1020,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~northcoast3~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -1039,7 +1071,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~sydneysurrounds~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -1090,7 +1122,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~newcastlehunter~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -1141,7 +1173,7 @@
               "feed_onestop_id": "f-nsw2~regionbuses~farwest~rt"
             },
             {
-              "feed_onestop_id": "f-nsw2~regionbuses~rt"
+              "feed_onestop_id": "f-nsw2~alerts~rt"
             }
           ]
         }
@@ -1153,60 +1185,6 @@
       "urls": {
         "realtime_vehicle_positions": "https://api.transport.nsw.gov.au/v1/gtfs/vehiclepos/regionbuses/farwest",
         "realtime_trip_updates": "https://api.transport.nsw.gov.au/v1/gtfs/realtime/regionbuses/farwest"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "attribution_text": "Transport for NSW"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "Authorization",
-        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
-      }
-    },
-    {
-      "id": "f-nsw2~ferries~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/ferries"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "attribution_text": "Transport for NSW"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "Authorization",
-        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
-      }
-    },
-    {
-      "id": "f-nsw2~lightrail~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/lightrail"
-      },
-      "license": {
-        "spdx_identifier": "CC-BY-4.0",
-        "use_without_attribution": "no",
-        "create_derived_product": "yes",
-        "attribution_text": "Transport for NSW"
-      },
-      "authorization": {
-        "type": "header",
-        "param_name": "Authorization",
-        "info_url": "https://opendata.transport.nsw.gov.au/developers/userguide"
-      }
-    },
-    {
-      "id": "f-nsw2~regionbuses~rt",
-      "spec": "gtfs-rt",
-      "urls": {
-        "realtime_alerts": "https://api.transport.nsw.gov.au/v2/gtfs/alerts/regionbuses"
       },
       "license": {
         "spdx_identifier": "CC-BY-4.0",
