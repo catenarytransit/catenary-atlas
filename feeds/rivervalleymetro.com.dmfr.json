@@ -5,7 +5,7 @@
       "id": "f-rvm",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://ethanc8.github.io/gtfs-mirror/NorthAmerica/Illinois/Kankakee/Transit.zip"
+        "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/13076/Transit.zip"
       }
     }
   ],

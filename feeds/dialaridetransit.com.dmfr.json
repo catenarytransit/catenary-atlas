@@ -1,0 +1,12 @@
+{
+	"$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+	"feeds": [
+		{
+			"id": "f-coles~county~zipline",
+			"spec": "gtfs",
+			"urls": {
+				"static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/11549/coles_co_dar_il_gtfs.zip"
+			}
+		}
+	]
+}

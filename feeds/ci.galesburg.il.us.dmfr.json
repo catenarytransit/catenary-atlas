@@ -17,9 +17,23 @@
           "website": "https://ci.galesburg.il.us/government/community_development/public_transportation/fixedroute.php",
           "tags": {
             "us_ntd_id": "50502"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-galesburg~il~us~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-galesburg~il~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/galesburg/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_trip_updates": "https://passio3.com/galesburg/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_alerts": "https://passio3.com/galesburg/passioTransit/gtfs/realtime/serviceAlerts"
+      }
     }
   ]
 }
