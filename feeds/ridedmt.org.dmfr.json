@@ -5,8 +5,9 @@
       "id": "f-danville~il~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://www.ridedmt.org/home/showpublisheddocument/1979/638712314709900000",
+        "static_current": "https://jhbbjhc.r.tsp1-brevo.net/tr/cl/IZAyb-NdI09SSSsI-c9q-yJOV0BWwvRetMbMDNBsQemqBEj2l-Z99wHkvbjXcznuj5-aQGQJ5qUMw8M72BrF8kql8HcFv1aPL-nKlLjbQaWH6YGMjQcPriioTsbl8BOHF3agwGZI0n4H56y4n0TOd9VzICSJNqbqPhepR5pHwTgyevGE4jPcoqab-fD1-vi5U6_zXwOHm0ALLAAVpgHV5sqMCnHzns_VUxC3ZRkDiOpbO4epuyANpJqCcdLE05QZgKk4lKZFGefgpN4nK2Wg68XRwQhqhnKYhk_ZZmjBxUY_vso0PemE0ICaO9SEx3Av_k2PMgShq0NTFhnPjelsVHZl2gn4M-R87bd37is",
         "static_historic": [
+          "https://www.ridedmt.org/home/showpublisheddocument/1979/638712314709900000",
           "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/danville-il-us.zip"
         ]
       },
@@ -15,13 +16,22 @@
           "onestop_id": "o-danville~il~us",
           "name": "Danville Mass Transit",
           "short_name": "DMT",
-          "website": "https://www.ridedmt.org/",
+          "website": "https://www.cityofdanville.org/379/Danville-Mass-Transit",
           "tags": {
             "developer_site": "https://www.ridedmt.org/schedules-fares/gtfs-feed",
             "us_ntd_id": "50174"
           }
         }
       ]
+    },
+    {
+      "id": "f-danville~il~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://danvillemasstransit.tripshot.com/v1/gtfs/realtime/vehiclePosition/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+        "realtime_trip_updates": "https://danvillemasstransit.tripshot.com/v1/gtfs/realtime/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+        "realtime_alerts": "https://danvillemasstransit.tripshot.com/v1/gtfs/realtime/serviceAlert/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820"
+      }
     }
   ]
 }
