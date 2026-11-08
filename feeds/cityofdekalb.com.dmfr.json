@@ -1,0 +1,45 @@
+{
+	"$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+	"feeds": [
+		{
+      "id": "f-cityofdekalb~il~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://data.trilliumtransit.com/gtfs/cityofdekalb-il-us/cityofdekalb-il-us.zip"
+      },
+      "license": {
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dp2y-dekalbpublictransit",
+          "name": "DeKalb Public Transit",
+          "website": "https://www.cityofdekalb.com/473/Transit",
+          "associated_feeds": [
+            {
+							"feed_onestop_id": "f-cityofdekalb~il~us",
+              "gtfs_agency_id": "1507"
+            },
+						{
+							"feed_onestop_id": "f-cityofdekalb~il~us~rt"
+						}
+          ],
+          "tags": {
+            "twitter_general": "cityofdekalb_il",
+            "us_ntd_id": "50176"
+          }
+        }
+      ]
+    },
+		{
+      "id": "f-cityofdekalb~il~us~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://s3.amazonaws.com/etatransit.gtfs/dekalbpublic.etaspot.net/position_updates.pb",
+        "realtime_trip_updates": "https://s3.amazonaws.com/etatransit.gtfs/dekalbpublic.etaspot.net/trip_updates.pb",
+        "realtime_alerts": "https://s3.amazonaws.com/etatransit.gtfs/dekalbpublic.etaspot.net/alerts.pb"
+      }
+    }
+	]
+}
