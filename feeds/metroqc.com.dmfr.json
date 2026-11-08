@@ -20,9 +20,23 @@
             "twitter_general": "qcmetro",
             "us_ntd_id": "50057",
             "wikidata_id": "Q7268260"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-9zrs-metrorockislandcountymetropolitanmasstransitdistrict~rt"
+            }
+          ]
         }
       ]
+    },
+    {
+      "id": "f-9zrs-metrorockislandcountymetropolitanmasstransitdistrict~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://bustracker.metroqc.com/gtfsrt/vehicles",
+        "realtime_trip_updates": "https://bustracker.metroqc.com/gtfsrt/trips",
+        "realtime_alerts": "https://bustracker.metroqc.com/gtfsrt/alerts"
+      }
     }
   ]
 }
