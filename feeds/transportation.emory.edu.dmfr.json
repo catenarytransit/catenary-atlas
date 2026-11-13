@@ -1,0 +1,41 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-dnh01-cliffshuttles~emoryuniversity",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://emory.tripshot.com/v1/gtfs.zip",
+        "static_historic": [
+					"https://api.transloc.com/gtfs/emory.zip",
+          "http://documents.atlantaregional.com/transitdata/gtfs_CCTMA.zip"
+        ]
+      },
+      "operators": [
+        {
+          "onestop_id": "o-dnh01-cliffshuttles~emoryuniversity",
+          "name": "Emory University",
+          "website": "http://transportation.emory.edu/shuttles",
+          "tags": {
+            "twitter_general": "TPSInTouch",
+            "wikidata_id": "Q7723378"
+          },
+					"associated_feeds": [
+						{
+							"onestop_id": "f-dnh01-cliffshuttles~emoryuniversity~rt"
+						}
+					]
+        }
+      ]
+    },
+    {
+      "id": "f-dnh01-cliffshuttles~emoryuniversity~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://emory.tripshot.com/v1/gtfs/realtime/vehiclePosition/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+        "realtime_trip_updates": "https://emory.tripshot.com/v1/gtfs/realtime/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820",
+        "realtime_alerts": "https://emory.tripshot.com/v1/gtfs/realtime/serviceAlert/CA558DDC-D7F2-4B48-9CAC-DEEA1134F820"
+      }
+    }
+  ]
+}

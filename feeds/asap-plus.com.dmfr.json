@@ -1,0 +1,33 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-atlantic~station~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/atlcarpark/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_trip_updates": "https://passio3.com/atlcarpark/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_alerts": "https://passio3.com/atlcarpark/passioTransit/gtfs/realtime/serviceAlerts"
+      }
+    },
+    {
+      "id": "f-atlantic~station",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/atlcarpark/passioTransit/gtfs/google_transit.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-atlantic~station",
+          "name": "Atlantic Station Shuttle",
+          "website": "https://asap-plus.com/gettingaround/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-atlantic~station~rt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
