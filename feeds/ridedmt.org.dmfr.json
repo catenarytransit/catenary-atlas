@@ -5,8 +5,9 @@
       "id": "f-danville~il~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://jhbbjhc.r.tsp1-brevo.net/tr/cl/IZAyb-NdI09SSSsI-c9q-yJOV0BWwvRetMbMDNBsQemqBEj2l-Z99wHkvbjXcznuj5-aQGQJ5qUMw8M72BrF8kql8HcFv1aPL-nKlLjbQaWH6YGMjQcPriioTsbl8BOHF3agwGZI0n4H56y4n0TOd9VzICSJNqbqPhepR5pHwTgyevGE4jPcoqab-fD1-vi5U6_zXwOHm0ALLAAVpgHV5sqMCnHzns_VUxC3ZRkDiOpbO4epuyANpJqCcdLE05QZgKk4lKZFGefgpN4nK2Wg68XRwQhqhnKYhk_ZZmjBxUY_vso0PemE0ICaO9SEx3Av_k2PMgShq0NTFhnPjelsVHZl2gn4M-R87bd37is",
+        "static_current": "https://danvillemasstransit.tripshot.com/v1/gtfs.zip",
         "static_historic": [
+          "https://jhbbjhc.r.tsp1-brevo.net/tr/cl/IZAyb-NdI09SSSsI-c9q-yJOV0BWwvRetMbMDNBsQemqBEj2l-Z99wHkvbjXcznuj5-aQGQJ5qUMw8M72BrF8kql8HcFv1aPL-nKlLjbQaWH6YGMjQcPriioTsbl8BOHF3agwGZI0n4H56y4n0TOd9VzICSJNqbqPhepR5pHwTgyevGE4jPcoqab-fD1-vi5U6_zXwOHm0ALLAAVpgHV5sqMCnHzns_VUxC3ZRkDiOpbO4epuyANpJqCcdLE05QZgKk4lKZFGefgpN4nK2Wg68XRwQhqhnKYhk_ZZmjBxUY_vso0PemE0ICaO9SEx3Av_k2PMgShq0NTFhnPjelsVHZl2gn4M-R87bd37is",
           "https://www.ridedmt.org/home/showpublisheddocument/1979/638712314709900000",
           "https://github.com/transitland/gtfs-archives-not-hosted-elsewhere/raw/master/danville-il-us.zip"
         ]
@@ -20,7 +21,12 @@
           "tags": {
             "developer_site": "https://www.ridedmt.org/schedules-fares/gtfs-feed",
             "us_ntd_id": "50174"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-danville~il~us~rt"
+            }
+          ]
         }
       ]
     },
