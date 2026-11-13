@@ -3515,7 +3515,7 @@
       "id": "f-dp1b-terrehautetransit~in~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/terrehautetransit-in-us/terrehautetransit-in-us.zip"
+        "static_current": "https://rapid.nationalrtap.org/GTFSFileManagement/UserUploadFiles/13594/terrehaute_in_gtfs.zip"
       },
       "license": {
         "use_without_attribution": "yes",
