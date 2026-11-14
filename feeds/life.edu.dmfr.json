@@ -1,0 +1,30 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+	"feeds": [
+		{
+      "id": "f-life~ga~us",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://life.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-life~ga~us",
+          "name": "Life University",
+					"associated_feeds": [
+						{
+							"feed_onestop_id": "f-life~ga~us~rt"
+						}
+					]
+        }
+      ]
+    },
+		{
+			"id": "f-life~ga~us~rt",
+			"spec": "gtfs-rt",
+			"urls": {
+				"realtime_vehicle_positions": "https://life.transloc.com/subscriptions/gtfsrt/vehicles.ashx"
+			}
+		}
+	]
+}

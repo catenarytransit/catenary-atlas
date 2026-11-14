@@ -1,0 +1,33 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-georgia~state~university~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://passio3.com/georgiast/passioTransit/gtfs/realtime/vehiclePositions",
+        "realtime_trip_updates": "https://passio3.com/georgiast/passioTransit/gtfs/realtime/tripUpdates",
+        "realtime_alerts": "https://passio3.com/georgiast/passioTransit/gtfs/realtime/serviceAlerts"
+      }
+    },
+    {
+      "id": "f-georgia~state~university",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://passio3.com/georgiast/passioTransit/gtfs/google_transit.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-georgia~state~university",
+          "name": "Georgia State University",
+          "website": "https://parking.gsu.edu/transportation/panther-express/",
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-georgia~state~university~rt"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

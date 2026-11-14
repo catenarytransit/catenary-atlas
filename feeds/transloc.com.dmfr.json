@@ -622,19 +622,6 @@
       ]
     },
     {
-      "id": "f-life~ga~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://life.transloc.com/Secure/Admin/Reports/GTFSDownload.aspx"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-life~ga~us",
-          "name": "Life University"
-        }
-      ]
-    },
-    {
       "id": "f-lsu~la~us",
       "spec": "gtfs",
       "urls": {
