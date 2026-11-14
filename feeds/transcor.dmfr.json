@@ -1,0 +1,689 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+    {
+      "id": "f-tds~all~aboard~america",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/317_all_aboard_america.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~all~aboard~america",
+          "name": "All Aboard America",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "317"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~american~star~tours",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/312_american_star_tours.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~american~star~tours",
+          "name": "American Star Tours",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "312"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~barons~bus~lines",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/302_barons_bus_lines.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~barons~bus~lines",
+          "name": "Barons Bus Lines",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "302"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~bayrunner~shuttle",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/245_bayrunner_shuttle.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~bayrunner~shuttle",
+          "name": "BayRunner Shuttle",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "245"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~beeline~express~village~travel",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/273_beeline_express_village_travel.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~beeline~express~village~travel",
+          "name": "BeeLine Express-Village Travel",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "273"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~c~j~bus~lines",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/368_c_j_bus_lines.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~c~j~bus~lines",
+          "name": "C&J Bus Lines",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "368"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~delta~bus~lines~inc",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/316_delta_bus_lines_inc.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~delta~bus~lines~inc",
+          "name": "Delta Bus Lines Inc.",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "316"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~expreso~lackawanna",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/392_expreso_lackawanna.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~expreso~lackawanna",
+          "name": "Expreso Lackawanna",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "392"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~express~arrow",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/203_express_arrow.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~express~arrow",
+          "name": "Express Arrow",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "203"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~fullington~trailways",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/219_fullington_trailways.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~fullington~trailways",
+          "name": "Fullington Trailways",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "219"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~hazleton~transportation",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/395_hazleton_transportation.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~hazleton~transportation",
+          "name": "Hazleton Transportation",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "395"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~indian~trails",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/224_indian_trails.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~indian~trails",
+          "name": "Indian Trails",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "224"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~international~bus~lines",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/404_international_bus_lines.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~international~bus~lines",
+          "name": "International Bus Lines",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "404"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~jefferson~lines",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/202_jefferson_lines.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~jefferson~lines",
+          "name": "Jefferson Lines",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "202"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~lamers~connect",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/240_lamers_connect.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~lamers~connect",
+          "name": "Lamers Connect",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "240"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~land~to~air~express",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/211_land_to_air_express.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~land~to~air~express",
+          "name": "Land to Air Express",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "211"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~limousine~de~mexico",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/403_limousine_de_mexico.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~limousine~de~mexico",
+          "name": "Limousine de Mexico",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "403"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~limousine~express",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/402_limousine_express.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~limousine~express",
+          "name": "Limousine Express",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "402"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~martz~bus",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/238_martz_bus.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~martz~bus",
+          "name": "Martz Bus",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "238"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~mexicoach",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/409_mexicoach.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~mexicoach",
+          "name": "Mexicoach",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "409"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~michigan~flyer",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/427_michigan_flyer.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~michigan~flyer",
+          "name": "Michigan Flyer",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "427"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~michigan~flyer~d2a2",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/428_michigan_flyer_d2a2.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~michigan~flyer~d2a2",
+          "name": "Michigan Flyer (D2A2)",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "428"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~michigan~flyer~dax",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/429_michigan_flyer_dax.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~michigan~flyer~dax",
+          "name": "Michigan Flyer (DAX)",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "429"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~miller~transportation",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/205_miller_transportation.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~miller~transportation",
+          "name": "Miller Transportation",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "205"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~mtr~western",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/324_mtr_western.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~mtr~western",
+          "name": "MTR Western",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "324"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~ourbus",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/ourbus_ourbus.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~ourbus",
+          "name": "OurBus",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "ourbus"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~peter~pan~bz",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/345_peter_pan_bz.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~peter~pan~bz",
+          "name": "Peter Pan (BZ)",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "345"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~peter~pan~bus~lines",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/221_peter_pan_bus_lines.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~peter~pan~bus~lines",
+          "name": "Peter Pan Bus Lines",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "221"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~rapid~connection",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/405_rapid_connection.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~rapid~connection",
+          "name": "Rapid Connection",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "405"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~salt~lake~express",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/303_salt_lake_express.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~salt~lake~express",
+          "name": "Salt Lake Express",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "303"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~shore~connect",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/438_shore_connect.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~shore~connect",
+          "name": "Shore Connect",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "438"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~shutto",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/425_shutto.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~shutto",
+          "name": "SHUTTO",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "425"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~smile~bus",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/394_smile_bus.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~smile~bus",
+          "name": "Smile Bus",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "394"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~sunway~charters",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/313_sunway_charters.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~sunway~charters",
+          "name": "Sunway Charters",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "313"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~tac~transportation",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/315_tac_transportation.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~tac~transportation",
+          "name": "TAC Transportation",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "315"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~virginia~breeze~operated~by~academy",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/424_virginia_breeze_operated_by_academy.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~virginia~breeze~operated~by~academy",
+          "name": "Virginia Breeze, Operated by Academy",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "424"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~virginia~breeze~operated~by~dillon~s",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/354_virginia_breeze_operated_by_dillon_s.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~virginia~breeze~operated~by~dillon~s",
+          "name": "Virginia Breeze, Operated by Dillon's",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "354"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f-tds~yes~blue~transportation",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/ethanc8/transcor-gtfs-converter/releases/latest/download/397_yes_blue_transportation.zip"
+      },
+      "operators": [
+        {
+          "onestop_id": "o-tds~yes~blue~transportation",
+          "name": "Yes Blue Transportation",
+          "associated_feeds": [
+            {
+              "gtfs_agency_id": "397"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
