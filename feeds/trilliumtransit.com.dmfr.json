@@ -3475,43 +3475,6 @@
       }
     },
     {
-      "id": "f-dp-945963",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/indiantrails-mi-us/indiantrails-mi-us.zip"
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dp-indiantrails",
-          "name": "Indian Trails",
-          "website": "https://www.indiantrails.com/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "945"
-            }
-          ],
-          "tags": {
-            "twitter_general": "indiantrailsbus",
-            "wikidata_id": "Q6021774"
-          }
-        },
-        {
-          "onestop_id": "o-dps-detroitannarborexpress",
-          "name": "Detroit Ann Arbor Express",
-          "website": "https://d2a2.com/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "1591"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "f-dp1b-terrehautetransit~in~us",
       "spec": "gtfs",
       "urls": {
@@ -3618,33 +3581,6 @@
       ]
     },
     {
-      "id": "f-dps-michiganflyer~mi~us",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/michiganflyer-mi-us/michiganflyer-mi-us.zip"
-      },
-      "license": {
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dps-michiganflyer",
-          "name": "Michigan Flyer",
-          "website": "https://www.michiganflyer.com/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "535"
-            }
-          ],
-          "tags": {
-            "twitter_general": "MichiganFlyer1",
-            "wikidata_id": "Q6021774"
-          }
-        }
-      ]
-    },
-    {
       "id": "f-dq2s-tarriver~nc~us",
       "spec": "gtfs",
       "urls": {
@@ -3697,47 +3633,6 @@
             "twitter_general": "PGCountyDPWT",
             "us_ntd_id": "30085",
             "wikidata_id": "Q7711628"
-          }
-        }
-      ]
-    },
-    {
-      "id": "f-dr-peterpanbuslines",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/peterpan-ma-us/peterpan-ma-us.zip"
-      },
-      "license": {
-        "url": "https://www.massdot.state.ma.us/Portals/0/docs/developers/develop_license_agree.pdf",
-        "use_without_attribution": "yes",
-        "create_derived_product": "yes",
-        "attribution_text": "Clearly acknowledge MassDOT as the provider of the Data."
-      },
-      "operators": [
-        {
-          "onestop_id": "o-dr-peterpanbonanzadivision",
-          "name": "Peter Pan Bonanza Division",
-          "website": "https://peterpanbus.com/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "642"
-            }
-          ]
-        },
-        {
-          "onestop_id": "o-dr-peterpanbuslines",
-          "name": "Peter Pan Bus Lines",
-          "website": "https://peterpanbus.com/",
-          "associated_feeds": [
-            {
-              "gtfs_agency_id": "641"
-            }
-          ],
-          "tags": {
-            "twitter_general": "PeterPanBus",
-            "twitter_service_alerts": "peterpanalerts",
-            "us_ntd_id": "10157",
-            "wikidata_id": "Q204807"
           }
         }
       ]
@@ -6680,26 +6575,6 @@
       "urls": {
         "static_current": "https://data.trilliumtransit.com/gtfs/vatransit-va-us/vatransit-va-us--flex-v2.zip"
       }
-    },
-    {
-      "id": "f-virginia~breeze",
-      "spec": "gtfs",
-      "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/virginiabreeze-va-us/virginiabreeze-va-us.zip",
-        "static_historic": [
-          "https://virginiabreeze.org/wp-content/uploads/2020/10/GTFSFiles.zip"
-        ]
-      },
-      "license": {
-        "url": "https://drpt.virginia.gov/data/gtfs-feed-clearinghouse/"
-      },
-      "operators": [
-        {
-          "onestop_id": "o-virginia~breeze",
-          "name": "Virginia Breeze",
-          "website": "https://us.megabus.com/virginia-breeze"
-        }
-      ]
     },
     {
       "id": "f-wahkiakumferry~or~us",

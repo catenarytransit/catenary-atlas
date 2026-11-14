@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
+  "feeds": [
+		{
+			"id": "f-trans~bridge~lines~nj",
+			"spec": "gtfs",
+			"urls": { 
+				"static_current": "https://www.njtransit.com/Trans-Bridge_bus_data.zip"
+			},
+			"license": {
+				"url": "https://www.njtransit.com/developer-tools"
+			},
+			"tags": {
+				"us_ntd_id": "20169"
+			},
+			"operators": [
+				{
+					"onestop_id": "o-trans~bridge~lines",
+					"name": "Trans-Bridge Lines",
+					"associated_feeds": [
+						{ "gtfs_agency_id": "20169" }
+					]
+				}
+			]
+		}
+	]
+}
