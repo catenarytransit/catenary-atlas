@@ -1,0 +1,13 @@
+{
+    "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.5.1.json",
+    "feeds": [
+      {
+        "id": "f-chicago~ohare~ats",
+        "spec": "gtfs",
+        "urls": {
+          "static_current": "https://github.com/catenarytransit/agency-gtfs-mirror/raw/refs/heads/main/CDAIL_2026.zip"
+        }
+      }
+    ],
+    "license_spdx_identifier": "CDLA-Permissive-1.0"
+  }
