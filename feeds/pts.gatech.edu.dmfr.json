@@ -1,7 +1,7 @@
 {
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
-	"feeds": [
-		{
+  "feeds": [
+    {
       "id": "f-dn5b-georgiatechtrolley~stingershuttles",
       "spec": "gtfs",
       "urls": {
@@ -14,26 +14,25 @@
       "operators": [
         {
           "onestop_id": "o-dn5b-georgiatechtrolley~stingershuttles",
-          "supersedes_ids": [
-            "o-dn5b-georgiatechtrolley~stingershuttles"
-          ],
           "name": "Georgia Tech Stinger Bus",
           "website": "https://pts.gatech.edu/",
           "tags": {
             "twitter_general": "gt_park_trans"
           },
-					"associated_feeds": [
-						"f-dn5b-georgiatechtrolley~stingershuttles~rt"
-					]
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-dn5b-georgiatechtrolley~stingershuttles~rt"
+            }
+          ]
         }
       ]
     },
-		{
-			"id": "f-dn5b-georgiatechtrolley~stingershuttles~rt",
-			"spec": "gtfs-rt",
-			"urls": {
-				"realtime_vehicle_positions": "https://bus.gatech.edu/subscriptions/gtfsrt/vehicles.ashx"
-			}
-		}
-	]
+    {
+      "id": "f-dn5b-georgiatechtrolley~stingershuttles~rt",
+      "spec": "gtfs-rt",
+      "urls": {
+        "realtime_vehicle_positions": "https://bus.gatech.edu/subscriptions/gtfsrt/vehicles.ashx"
+      }
+    }
+  ]
 }
