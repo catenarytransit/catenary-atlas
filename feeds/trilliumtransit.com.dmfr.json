@@ -603,7 +603,7 @@
       "id": "f-9qd-yosemite~ca~us",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.trilliumtransit.com/gtfs/yosemite-ca-us/yosemite-ca-us.zip"
+        "static_current": "https://www.planeteria.com/gtfs/yosemite-ca-us/yosemite-ca-us-gtfs.zip"
       },
       "license": {
         "url": "https://yarts.com/yarts-gtfs-data/",
