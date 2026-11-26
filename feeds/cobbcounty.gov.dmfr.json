@@ -19,7 +19,12 @@
             "twitter_general": "cobbdot",
             "us_ntd_id": "40078",
             "wikidata_id": "Q5138753"
-          }
+          },
+          "associated_feeds": [
+            {
+              "feed_onestop_id": "f-dn5b-cobbavl~rt"
+            }
+          ]
         }
       ]
     },
