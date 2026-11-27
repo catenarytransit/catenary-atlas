@@ -2,17 +2,1854 @@
   "$schema": "https://dmfr.transit.land/json-schema/dmfr.schema-v0.6.0.json",
   "feeds": [
     {
-      "id": "f-bus~dft~gov~uk~england",
+      "id": "f-bus~dft~gov~uk~aberdeencity",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Aberdeen City",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/aberdeencity.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~aberdeenshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Aberdeenshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/aberdeenshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~angus",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Angus",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/angus.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~argyllandbute",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Argyll and Bute",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/argyllandbute.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~barnsley",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Barnsley",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/barnsley.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~bathandnortheastsomerset",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Bath and North East Somerset",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/bathandnortheastsomerset.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~bedford",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Bedford",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/bedford.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~birmingham",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Birmingham",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/birmingham.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~blackburnwithdarwen",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Blackburn with Darwen",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/blackburnwithdarwen.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~blackpool",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Blackpool",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/blackpool.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~blaenau~gwent",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Blaenau Gwent",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/blaenau_gwent.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~bournemouth~christchurch~and~poole",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Bournemouth Christchurch and Poole",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/bournemouth_christchurch_and_poole.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~bracknellforest",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Bracknell Forest",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/bracknellforest.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~bradford",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Bradford",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/bradford.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~bridgend",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Bridgend",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/bridgend.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~brightonandhove",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Brighton and Hove",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/brightonandhove.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~bristol",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Bristol",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/bristol.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~buckinghamshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Buckinghamshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/buckinghamshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~caerphilly",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Caerphilly",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/caerphilly.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~calderdale",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Calderdale",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/calderdale.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~cambridgeshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Cambridgeshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/cambridgeshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~cardiff",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Cardiff",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/cardiff.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~carmarthenshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Carmarthenshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/carmarthenshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~central~bedfordshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Central Bedfordshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/central_bedfordshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~ceredigion",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Ceredigion",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/ceredigion.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~cheshire~east",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Cheshire East",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/cheshire_east.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~cheshire~west~and~chester",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Cheshire West and Chester",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/cheshire_west_and_chester.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~cityofedinburgh",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - City of Edinburgh",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/cityofedinburgh.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~clackmannanshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Clackmannanshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/clackmannanshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~conwy",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Conwy",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/conwy.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~cornwall",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Cornwall",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/cornwall.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~countydurham",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - County Durham",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/countydurham.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~coventry",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Coventry",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/coventry.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~cumbria",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Cumbria",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/cumbria.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~darlington",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Darlington",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/darlington.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~denbighshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Denbighshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/denbighshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~derby",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Derby",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/derby.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~derbyshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Derbyshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/derbyshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~devon",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Devon",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/devon.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~doncaster",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Doncaster",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/doncaster.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~dorset",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Dorset",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/dorset.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~dudley",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Dudley",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/dudley.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~dumfriesandgalloway",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Dumfries and Galloway",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/dumfriesandgalloway.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~dundeecity",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Dundee City",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/dundeecity.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~east~riding~of~yorkshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - East Riding of Yorkshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/east_riding_of_yorkshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~east~sussex",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - East Sussex",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/east_sussex.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~eastayrshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - East Ayrshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/eastayrshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~eastdunbartonshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - East Dunbartonshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/eastdunbartonshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~eastlothian",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - East Lothian",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/eastlothian.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~eastrenfrewshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - East Renfrewshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/eastrenfrewshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~essex",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Essex",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/essex.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~fife",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Fife",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/fife.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~flintshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Flintshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/flintshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~gateshead",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Gateshead",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/gateshead.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~glasgowcity",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Glasgow City",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/glasgowcity.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~gloucestershire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Gloucestershire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/gloucestershire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~greater~london",
       "supersedes_ids": [
         "f-gcpv-transportforlondon"
       ],
-      "name": "United Kingdom Department for Transport Bus Open Data Service",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Greater London",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/england/",
-        "static_historic": [
-          "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/all/"
-        ]
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/greater_london.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~greater~manchester",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Greater Manchester",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/greater_manchester.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~gwynedd",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Gwynedd",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/gwynedd.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~halton",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Halton",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/halton.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~hampshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Hampshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/hampshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~hartlepool",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Hartlepool",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/hartlepool.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~herefordshire~countyof",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Herefordshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/herefordshire_countyof.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~hertfordshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Hertfordshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/hertfordshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~highland",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Highland",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/highland.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~inverclyde",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Inverclyde",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/inverclyde.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~isleofanglesey",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Isle of Anglesey",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/isleofanglesey.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~isleofwight",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Isle of Wight",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/isleofwight.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~kent",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Kent",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/kent.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~kingstonuponhull~cityof",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Kingston upon Hull",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/kingstonuponhull_cityof.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~kirklees",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Kirklees",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/kirklees.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~knowsley",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Knowsley",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/knowsley.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~lancashire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Lancashire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/lancashire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~leeds",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Leeds",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/leeds.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~leicester",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Leicester",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/leicester.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~leicestershire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Leicestershire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/leicestershire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~lincolnshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Lincolnshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/lincolnshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~luton",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Luton",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/luton.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~medway",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Medway",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/medway.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~merthyr~tydfil",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Merthyr Tydfil",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/merthyr_tydfil.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~middlesbrough",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Middlesbrough",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/middlesbrough.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~midlothian",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Midlothian",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/midlothian.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~miltonkeynes",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Milton Keynes",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/miltonkeynes.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~monmouthshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Monmouthshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/monmouthshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~moray",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Moray",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/moray.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~nah~eileanansiar",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Na h-Eileanan Siar",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/nah_eileanansiar.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~neath~port~talbot",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Neath Port Talbot",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/neath_port_talbot.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~newcastle~upon~tyne",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Newcastle upon Tyne",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/newcastle_upon_tyne.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~newport",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Newport",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/newport.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~norfolk",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Norfolk",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/norfolk.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~north~ayrshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - North Ayrshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/north_ayrshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~north~lincolnshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - North Lincolnshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/north_lincolnshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~north~somerset",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - North Somerset",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/north_somerset.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~north~tyneside",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - North Tyneside",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/north_tyneside.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~northamptonshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Northamptonshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/northamptonshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~northlanarkshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - North Lanarkshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/northlanarkshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~northumberland",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Northumberland",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/northumberland.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~northyorkshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - North Yorkshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/northyorkshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~nottingham",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Nottingham",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/nottingham.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~nottinghamshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Nottinghamshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/nottinghamshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~orkneyislands",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Orkney Islands",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/orkneyislands.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~other",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Other areas",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/other.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~oxfordshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Oxfordshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/oxfordshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~pembrokeshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Pembrokeshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/pembrokeshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~perthandkinross",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Perth and Kinross",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/perthandkinross.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~peterborough",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Peterborough",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/peterborough.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~plymouth",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Plymouth",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/plymouth.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~portsmouth",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Portsmouth",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/portsmouth.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~powys",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Powys",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/powys.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~reading",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Reading",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/reading.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~redcar~and~cleveland",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Redcar and Cleveland",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/redcar_and_cleveland.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~renfrewshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Renfrewshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/renfrewshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~rhonddacynontaf",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Rhondda Cynon Taf",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/rhonddacynontaf.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~rotherham",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Rotherham",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/rotherham.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~rutland",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Rutland",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/rutland.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~sandwell",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Sandwell",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/sandwell.zip"
       },
       "license": {
         "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
@@ -25,15 +1862,490 @@
     },
     {
       "id": "f-bus~dft~gov~uk~scotland",
-      "supersedes_ids": [
-        "f-gcpv-transportforlondon"
-      ],
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Scotland",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/scotland/",
-        "static_historic": [
-          "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/all/"
-        ]
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/scotland.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~scottishborders",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Scottish Borders",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/scottishborders.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~sefton",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Sefton",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/sefton.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~sheffield",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Sheffield",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/sheffield.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~shetlandislands",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Shetland Islands",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/shetlandislands.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~shropshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Shropshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/shropshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~slough",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Slough",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/slough.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~solihull",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Solihull",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/solihull.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~somerset",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Somerset",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/somerset.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~south~tyneside",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - South Tyneside",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/south_tyneside.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~southampton",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Southampton",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/southampton.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~southayrshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - South Ayrshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/southayrshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~southend~on~sea",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Southend-on-Sea",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/southend_on_sea.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~southgloucestershire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - South Gloucestershire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/southgloucestershire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~southlanarkshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - South Lanarkshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/southlanarkshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~st~helens",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - St Helens",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/st_helens.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~staffordshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Staffordshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/staffordshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~stirling",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Stirling",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/stirling.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~stockton~on~tees",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Stockton-on-Tees",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/stockton_on_tees.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~stoke~on~trent",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Stoke-on-Trent",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/stoke_on_trent.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~suffolk",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Suffolk",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/suffolk.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~sunderland",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Sunderland",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/sunderland.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~surrey",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Surrey",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/surrey.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~swansea",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Swansea",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/swansea.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~swindon",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Swindon",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/swindon.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~telfordandwrekin",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Telford and Wrekin",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/telfordandwrekin.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~thurrock",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Thurrock",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/thurrock.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~torbay",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Torbay",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/torbay.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~torfaen",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Torfaen",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/torfaen.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~vale~of~glamorgan",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Vale of Glamorgan",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/vale_of_glamorgan.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~wakefield",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Wakefield",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/wakefield.zip"
       },
       "license": {
         "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
@@ -46,15 +2358,250 @@
     },
     {
       "id": "f-bus~dft~gov~uk~wales",
-      "supersedes_ids": [
-        "f-gcpv-transportforlondon"
-      ],
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Wales",
       "spec": "gtfs",
       "urls": {
-        "static_current": "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/wales/",
-        "static_historic": [
-          "https://data.bus-data.dft.gov.uk/timetable/download/gtfs-file/all/"
-        ]
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/wales.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~walsall",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Walsall",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/walsall.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~warrington",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Warrington",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/warrington.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~warwickshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Warwickshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/warwickshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~westberkshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - West Berkshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/westberkshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~westdunbartonshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - West Dunbartonshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/westdunbartonshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~westlothian",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - West Lothian",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/westlothian.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~westsussex",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - West Sussex",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/westsussex.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~wiltshire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Wiltshire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/wiltshire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~windsor~and~maidenhead",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Windsor and Maidenhead",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/windsor_and_maidenhead.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~wirral",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Wirral",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/wirral.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~wokingham",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Wokingham",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/wokingham.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~wolverhampton",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Wolverhampton",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/wolverhampton.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~worcestershire",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Worcestershire",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/worcestershire.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~wrexham",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - Wrexham",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/wrexham.zip"
+      },
+      "license": {
+        "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
+        "use_without_attribution": "yes",
+        "create_derived_product": "yes",
+        "redistribution_allowed": "yes",
+        "commercial_use_allowed": "yes",
+        "share_alike_optional": "yes"
+      }
+    },
+    {
+      "id": "f-bus~dft~gov~uk~york",
+      "name": "United Kingdom Department for Transport Bus Open Data Service - York",
+      "spec": "gtfs",
+      "urls": {
+        "static_current": "https://github.com/catenarytransit/gtfs-gb-splitter/releases/download/latest/york.zip"
       },
       "license": {
         "url": "https://data.bus-data.dft.gov.uk/guidance/requirements/",
@@ -72,7 +2619,7 @@
         "realtime_trip_updates": "https://data.bus-data.dft.gov.uk/avl/download/gtfsrt"
       },
       "spec": "gtfs-rt"
-      }
+    }
   ],
   "operators": [
     {
@@ -80,13 +2627,493 @@
       "name": "Department for Transport",
       "associated_feeds": [
         {
-          "feed_onestop_id": "f-bus~dft~gov~uk~england"
+          "feed_onestop_id": "f-bus~dft~gov~uk~aberdeencity"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~aberdeenshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~angus"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~argyllandbute"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~barnsley"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~bathandnortheastsomerset"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~bedford"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~birmingham"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~blackburnwithdarwen"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~blackpool"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~blaenau~gwent"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~bournemouth~christchurch~and~poole"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~bracknellforest"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~bradford"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~bridgend"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~brightonandhove"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~bristol"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~buckinghamshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~caerphilly"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~calderdale"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~cambridgeshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~cardiff"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~carmarthenshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~central~bedfordshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~ceredigion"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~cheshire~east"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~cheshire~west~and~chester"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~cityofedinburgh"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~clackmannanshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~conwy"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~cornwall"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~countydurham"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~coventry"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~cumbria"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~darlington"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~denbighshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~derby"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~derbyshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~devon"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~doncaster"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~dorset"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~dudley"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~dumfriesandgalloway"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~dundeecity"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~east~riding~of~yorkshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~east~sussex"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~eastayrshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~eastdunbartonshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~eastlothian"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~eastrenfrewshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~essex"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~fife"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~flintshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~gateshead"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~glasgowcity"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~gloucestershire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~greater~london"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~greater~manchester"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~gwynedd"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~halton"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~hampshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~hartlepool"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~herefordshire~countyof"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~hertfordshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~highland"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~inverclyde"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~isleofanglesey"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~isleofwight"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~kent"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~kingstonuponhull~cityof"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~kirklees"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~knowsley"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~lancashire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~leeds"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~leicester"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~leicestershire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~lincolnshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~luton"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~medway"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~merthyr~tydfil"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~middlesbrough"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~midlothian"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~miltonkeynes"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~monmouthshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~moray"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~nah~eileanansiar"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~neath~port~talbot"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~newcastle~upon~tyne"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~newport"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~norfolk"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~north~ayrshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~north~lincolnshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~north~somerset"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~north~tyneside"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~northamptonshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~northlanarkshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~northumberland"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~northyorkshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~nottingham"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~nottinghamshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~orkneyislands"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~other"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~oxfordshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~pembrokeshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~perthandkinross"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~peterborough"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~plymouth"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~portsmouth"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~powys"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~reading"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~redcar~and~cleveland"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~renfrewshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~rhonddacynontaf"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~rotherham"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~rutland"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~sandwell"
         },
         {
           "feed_onestop_id": "f-bus~dft~gov~uk~scotland"
         },
         {
+          "feed_onestop_id": "f-bus~dft~gov~uk~scottishborders"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~sefton"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~sheffield"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~shetlandislands"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~shropshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~slough"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~solihull"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~somerset"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~south~tyneside"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~southampton"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~southayrshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~southend~on~sea"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~southgloucestershire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~southlanarkshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~st~helens"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~staffordshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~stirling"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~stockton~on~tees"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~stoke~on~trent"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~suffolk"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~sunderland"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~surrey"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~swansea"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~swindon"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~telfordandwrekin"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~thurrock"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~torbay"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~torfaen"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~vale~of~glamorgan"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~wakefield"
+        },
+        {
           "feed_onestop_id": "f-bus~dft~gov~uk~wales"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~walsall"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~warrington"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~warwickshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~westberkshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~westdunbartonshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~westlothian"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~westsussex"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~wiltshire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~windsor~and~maidenhead"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~wirral"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~wokingham"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~wolverhampton"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~worcestershire"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~wrexham"
+        },
+        {
+          "feed_onestop_id": "f-bus~dft~gov~uk~york"
         },
         {
           "feed_onestop_id": "f-bus~dft~gov~uk~rt"
